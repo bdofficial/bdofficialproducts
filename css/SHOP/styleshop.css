@@ -1,0 +1,62 @@
+
+.overlay_flight_traveldil {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay_flight_traveldil:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .popup_flight_travlDil {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 97%;
+    position: relative;
+    transition: all 2s ease-in-out;
+  }
+  .popup_flight_travlDil .close_flight_travelDl {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup_flight_travlDil .content_flightht_travel_dil {
+    max-height: 30%;
+    overflow: auto;
+  }
+
+  body , html{
+    margin:0;
+    padding:0;
+  }
+  #popup-1, #popup-2{
+    width:100%;
+    height:100%;
+    background:#00000050;
+    position:absolute;
+    top:0;
+    visibility:hidden
+  }
+  #inner-popup-1, #inner-popup-2{
+    padding:20px;
+    margin:0 auto;
+    width:50%;
+    background:#fff;
+    margin:50px auto;
+    padding:20px;
+    border-radius:20px;
+  }
+  
