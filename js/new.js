@@ -1,8 +1,21 @@
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", function() {
-    navigator.serviceWorker
-      .register("/serviceWorker.js")
-      .then(res => console.log("service worker registered"))
-      .catch(err => console.log("service worker not registered", err))
-  })
+//check if "user" is in localStorage
+
+if (localStorage["user"])
+{
+    var user = localStorage["user"] ;
+    document.getElementById("user").value = user ;
 }
+else
+{
+    document.getElementById("user").placeholder = " " ;
+    console.log("user no found in localStorage")
+}
+
+//save entered gmail address
+document.getElementById("save").addEventListener("click", function ()
+    {
+        var user = document.getElementById("user").value ;
+        //localStorage["user"] = user ;
+        localStorage.setItem("user", user) ;
+        console.log("gmail id saved")
+    } , false);
