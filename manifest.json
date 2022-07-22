@@ -2,32 +2,33 @@
   "name": "BD-OFFiCiAL",
   "short_name": "0FFiCiAL",
   "icons": [{
-    "src": "images/hello-icon-128.png",
+    "src": "icons/BDOP1.png",
       "sizes": "128x128",
       "type": "image/png"
     }, {
-      "src": "images/hello-icon-144.png",
+      
+      "src": "icons/BDOP2.png",
       "sizes": "144x144",
       "type": "image/png"
     }, {
-      "src": "images/hello-icon-152.png",
+      "src": "icons/BDOP3.png",
       "sizes": "152x152",
       "type": "image/png"
     }, {
-      "src": "images/hello-icon-192.png",
+      "src": "icons/BDOP4.png",
       "sizes": "192x192",
       "type": "image/png"
     }, {
-      "src": "images/hello-icon-256.png",
+      "src": "icons/BDOP5.png",
       "sizes": "256x256",
       "type": "image/png"
     }, {
-      "src": "images/hello-icon-512.png",
+      "src": "icons/BDOP6.png",
       "sizes": "512x512",
       "type": "image/png"
     }],
   "lang": "en-US",
-  "start_url": "/0492002jahed.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "white",
   "theme_color": "white"
