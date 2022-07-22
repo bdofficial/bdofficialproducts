@@ -9,12 +9,12 @@ function b1() {
     if (qty !=""){
            array.push({
              sabbir:qtx,
-            quantity:qty+"×270="+qtx+"(SMART-BLACK-GOLD25gm)\n"});
+            quantity:qty+"×270="+qtx+"(SMART-TUBE25gm)\n"});
         for (i = 0; i < array.length; i++) {
          arrQty+=array[i].quantity;
        display_message.innerHTML=arrQty;
          arrTotal+=parseFloat(array[i].sabbir);
-        display_message.innerHTML+= "Total="+arrTotal;
+       display_message.innerHTML+= "Total="+arrTotal;
         }
     }
 }
