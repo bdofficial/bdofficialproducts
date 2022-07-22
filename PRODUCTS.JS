@@ -1,6 +1,16 @@
 document.write('<!DOCTYPE html>');
 document.write('<html lang="en">');
 document.write('<head>  ');
+document.write('  <link rel="manifest" href="/manifest.json">');
+document.write('  <link rel="icon" href="favicon.ico" type="image/x-icon" />');
+document.write('  <link rel="apple-touch-icon" href="images/hello-icon-152.png">');
+document.write('  <meta name="viewport" content="width=device-width, initial-scale=1.0">');
+document.write('  <meta name="theme-color" content="white" />');
+document.write('  <meta name="apple-mobile-web-app-capable" content="yes">');
+document.write('  <meta name="apple-mobile-web-app-status-bar-style" content="black">');
+document.write('  <meta name="apple-mobile-web-app-title" content="Hello World">');
+document.write('  <meta name="msapplication-TileImage" content="images/hello-icon-144.png">');
+document.write('  <meta name="msapplication-TileColor" content="#FFFFFF">');
 document.write('<!-- ====== Favicon ====== -->');
 document.write('<link');
 document.write('rel="shortcut icon"');
