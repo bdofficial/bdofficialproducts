@@ -2,28 +2,27 @@
   "name": "BD-OFFiCiAL",
   "short_name": "0FFiCiAL",
   "icons": [{
-    "src": "icons/BDOP1.png",
+    "src": "images/hello-icon-12.png",
       "sizes": "128x128",
       "type": "image/png"
     }, {
-      
-      "src": "icons/BDOP2.png",
+      "src": "images/hello-icon-144.png",
       "sizes": "144x144",
       "type": "image/png"
     }, {
-      "src": "icons/BDOP3.png",
+      "src": "images/hello-icon-152.png",
       "sizes": "152x152",
       "type": "image/png"
     }, {
-      "src": "icons/BDOP4.png",
+      "src": "images/hello-icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     }, {
-      "src": "icons/BDOP5.png",
+      "src": "images/hello-icon-256.png",
       "sizes": "256x256",
       "type": "image/png"
     }, {
-      "src": "icons/BDOP6.png",
+      "src": "images/hello-icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }],
