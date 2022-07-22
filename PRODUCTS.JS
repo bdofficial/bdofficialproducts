@@ -40,7 +40,7 @@ document.write('</head>');
 document.write('<body>');
 document.write('<header>');
 document.write('        <div class="container">');
-document.write('            <center><a href=""><h1>BD-OFFiCiAL</h1></a></center>');
+document.write('            <center><a><h1>BD-OFFiCiAL</h1></a></center>');
 document.write('            <!-- Search box -->');
 document.write('            <div class="search-box">');
 document.write('                <center><form action="" onsubmit="return false">');
