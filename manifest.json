@@ -1,5 +1,5 @@
 {
-  "name": " ",
+  "name": "&nbsp;",
   "short_name": "0FFiCiAL",
   "icons": [{
     "src": "icons/BDOP1.png",
@@ -30,6 +30,6 @@
   "lang": "en-US",
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "white",
-  "theme_color": "white"
+  "background_color": "black",
+  "theme_color": "black"
 }
