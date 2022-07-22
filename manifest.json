@@ -28,8 +28,8 @@
       "type": "image/png"
     }],
   "lang": "en-US",
-  "start_url": "/2238sabbir.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "black",
-  "theme_color": "black"
+  "theme_color": "blue"
 }
