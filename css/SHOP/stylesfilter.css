@@ -9,8 +9,10 @@
     --color-dark-grey: #000000;
 }
 .filter-box{
+  position: sticky;
   width:21rem;
-  transform: translate(-1.5rem); 
+  left: 35.8%;
+    transform: translate(-6.8%);
 }
 .btn{
   
