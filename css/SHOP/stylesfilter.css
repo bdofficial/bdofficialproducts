@@ -180,7 +180,7 @@ form input {
   border-radius: 4px;
     text-align: center;
     height: 5.2rem;
-    background-color:#FFD900;
+    background-color:  hsl(27, 100%, 42%);
 }
 
 .product-details h2 {
@@ -205,8 +205,8 @@ transform: translate(0rem,0.9rem);
 .product-details p {
     font-size: 1rem;
     line-height:0.1rem;
-    color: #2BBA00;
-    font-weight: 450;
+    color: green;
+    font-weight: 700;
 }
 
 .product-details p span {
