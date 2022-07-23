@@ -60,11 +60,11 @@ a{
   width: 14.3rem;     
 }
 .form-row textarea{
-    left: -8.7%;
+    left: -4.5%;
     bottom: 0%;
-    transform: translate(-8.7%,-0%);
+    transform: translate(-4.5%,-0%);
   height: 9rem;
-  width: 21rem;
+  width: 19rem;
 }
 body {
     font-family: 'Open Sans', sans-serif;
