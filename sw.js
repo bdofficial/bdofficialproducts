@@ -4,9 +4,7 @@ var filesToCache = [
   '/css/shop/chat.css',
   '/css/shop/style.css',
   '/css/shop/stylefilter.css',
-  '/js/app.js',
   '/js/chat.js', 
-  '/js/shop.js'
     ];
 /* Start the service worker and cache all of the app's content */
 self.addEventListener('install', function(e) {
