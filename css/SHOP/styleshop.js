@@ -1,4 +1,6 @@
-.overlay_flight_traveldil {
+// Your CSS as text
+var styles = `
+ .overlay_flight_traveldil {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -59,3 +61,9 @@
     border-radius:20px;
   }
   
+
+ 
+`
+var styleSheet = document.createElement("style")
+styleSheet.innerText = styles
+document.head.appendChild(styleSheet)
