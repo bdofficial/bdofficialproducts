@@ -1,10 +1,10 @@
-const chatButton = document.querySelector('.chatbox__button');
-const chatContent = document.querySelector('.chatbox__support');
-const icons = {
+let chatButton = document.querySelector('.chatbox__button');
+let chatContent = document.querySelector('.chatbox__support');
+let icons = {
     isClicked: ' ',
     isNotClicked: ' '
 }
-const chatbox = new InteractiveChatbox(chatButton, chatContent, icons);
+let chatbox = new InteractiveChatbox(chatButton, chatContent, icons);
 chatbox.display();
 chatbox.toggleIcon(false, chatButton);
 
