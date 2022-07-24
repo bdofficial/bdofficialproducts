@@ -4,8 +4,9 @@ var filesToCache = [
   '/js/app.js',
   '/js/chat.js', 
   '/js/images-calcu.js',
+  '/js/scriptfilter.js', 
   '/js/shop.js'
-    ];
+  ];
 /* Start the service worker and cache all of the app's content */
 self.addEventListener('install', function(e) {
   e.waitUntil(
@@ -15,7 +16,6 @@ self.addEventListener('install', function(e) {
   );
   self.skipWaiting();
 });
-
 /* Serve cached content when offline */
 self.addEventListener('fetch', function(e) {
   e.respondWith(
