@@ -5,7 +5,5 @@ const icons = {
     isNotClicked: ' '
 }
 const chatbox = new InteractiveChatbox(chatButton, chatContent, icons);
-chatbox.display();
-
-
-
+chatbox.display(true, chatButton);
+chatbox.toggleIcon(false, chatButton);
