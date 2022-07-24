@@ -1,6 +1,8 @@
 var cacheName = 'hello-pwa';
 var filesToCache = [
-
+  '/',
+  '/index.html',
+  '/css/shop/stylefilter.js'
   ];
 /* Start the service worker and cache all of the app's content */
 self.addEventListener('install', function(e) {
