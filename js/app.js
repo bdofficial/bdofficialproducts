@@ -6,4 +6,4 @@ const icons = {
 }
 const chatbox = new InteractiveChatbox(chatButton, chatContent, icons);
 chatbox.display(true, chatButton);
-chatbox.toggleIcon(false, chatButton);
+chatbox.toggleIcon(true, chatButton);
