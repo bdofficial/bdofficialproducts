@@ -6,8 +6,4 @@ const icons = {
 }
 const chatbox = new InteractiveChatbox(chatButton, chatContent, icons);
 chatbox.display();
-$(window).ready(function(){
-    const popup =$('#popup-1'),
-        innerPopup =$('#inner-popup-1'),
-        btnInnerPopup =$('#btn-1');
-  });
+
