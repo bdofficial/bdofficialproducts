@@ -5,6 +5,7 @@ var filesToCache = [
   '/js/app.js',
   '/js/chat.js', 
   '/js/images-calc.js',
+  '/js/app.js',
   '/js/new.js', 
   '/js/scriptfilter.js', 
   '/js/shop.js'
