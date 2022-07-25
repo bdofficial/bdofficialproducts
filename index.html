@@ -637,7 +637,7 @@ type="image/png"/>
 
     <div class="container">
         <div class="chatbox">
-            <div class="chatbox__support" style="background-color: yellow">
+            <div class="chatbox__support" id="sabbir333" style="background-color: yellow">
                <div class="chatbox__header" style="background-color:#810B0BC7"><center>
 <a target=_blank><h1></h1></a></center>
                 </div>
@@ -670,8 +670,6 @@ type="image/png"/>
             </div>
         </div>
     </div>
-   <script src="./js/Chat.js"></script>
-   <script src="./js/app.js"></script>
    <script src="./js/new.js"></script>
    <script src="./js/main.js"></script>
 </body> 
@@ -1035,3 +1033,51 @@ span.messages__dot {
 </style>
 
 </html> 
+
+<script>
+  
+  class InteractiveChatbox {
+    constructor(a, b, ) {
+        this.args = {
+            button: a,
+            chatbox: b
+        }
+    }
+
+    display() {
+        const {button, chatbox} = this.args;
+        
+        button.addEventListener('click', () => this.toggleState(chatbox))
+    }
+
+    toggleState(chatbox) {
+        this.state = !this.state;
+        this.showOrHideChatBox(chatbox, this.args.button);
+    }
+
+    showOrHideChatBox(chatbox, button) {
+        if(this.state) {
+            chatbox.classList.add('chatbox--active')
+            
+        } 
+        else if (!this.state) {
+          chatbox.classList.remove('chatbox--active')
+             }
+    }
+    
+}
+
+
+
+
+const chatButton = document.querySelector('.chatbox__button');
+const chatContent = document.querySelector('.chatbox__support');
+const icons = {
+    isClicked: ' ',
+    isNotClicked: ' '
+}
+const chatbox = new InteractiveChatbox(chatButton, chatContent, icons);
+chatbox.display();
+
+  
+</script>
