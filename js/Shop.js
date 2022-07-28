@@ -42,14 +42,14 @@ function b12() {
 ////------2------1
 function b21() {
   qty = document.getElementById("a21").value;
-  qtz = qty * 900;
+  qtz = qty * 986.4;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
   let arrTotal = 0;
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: qty + "×900=" + qtx + "(CLEAN-&-CLEAR50ml)\n"
+      quantity: qty + "×986.4=" + qtx + "(CLEAN-&-CLEAR50ml)\n"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -62,14 +62,14 @@ function b21() {
 ////------2------2
 function b22() {
   qty = document.getElementById("a22").value;
-  qtz = qty * 1560;
+  qtz = qty * 1716;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
   let arrTotal = 0;
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: qty + "×1560=" + qtx + "CLEAN-&-CLEAR(100ml)\n"
+      quantity: qty + "×1716=" + qtx + "CLEAN-&-CLEAR(100ml)\n"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
