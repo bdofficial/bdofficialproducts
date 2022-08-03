@@ -119,6 +119,106 @@ function b32() {
     }
   }
 }
+////------6------1
+function b61() {
+  qty = document.getElementById("a61").value;
+  qtz = qty * 1680;
+  qtx = Math.round(qtz * 100) / 100;
+  let arrQty = "";
+  let arrTotal = 0;
+  if (qty != "") {
+    array.push({
+      sabbir: qtx,
+      quantity: qty + "×1680=" + qtx + "(TOUCH-ME*ml)\n"
+    });
+    for (i = 0; i < array.length; i++) {
+      arrQty += array[i].quantity;
+      display_message.innerHTML = arrQty;
+      arrTotal += parseFloat(array[i].sabbir);
+      display_message.innerHTML += "Total=" + arrTotal;
+    }
+  }
+}
+////------6------2
+function b62() {
+  qty = document.getElementById("a62").value;
+  qtz = qty * 2880;
+  qtx = Math.round(qtz * 100) / 100;
+  let arrQty = "";
+  let arrTotal = 0;
+  if (qty != "") {
+    array.push({
+      sabbir: qtx,
+      quantity: qty + "×2880=" + qtx + "(FOGG-PERFUME*ml)\n"
+    });
+    for (i = 0; i < array.length; i++) {
+      arrQty += array[i].quantity;
+      display_message.innerHTML = arrQty;
+      arrTotal += parseFloat(array[i].sabbir);
+      display_message.innerHTML += "Total=" + arrTotal;
+    }
+  }
+}
+////------6------3
+function b63() {
+  qty = document.getElementById("a63").value;
+  qtz = qty * 600;
+  qtx = Math.round(qtz * 100) / 100;
+  let arrQty = "";
+  let arrTotal = 0;
+  if (qty != "") {
+    array.push({
+      sabbir: qtx,
+      quantity: qty + "×1680=" + qtx + "(KS-PERFUME*ml)\n"
+    });
+    for (i = 0; i < array.length; i++) {
+      arrQty += array[i].quantity;
+      display_message.innerHTML = arrQty;
+      arrTotal += parseFloat(array[i].sabbir);
+      display_message.innerHTML += "Total=" + arrTotal;
+    }
+  }
+}
+////------6------4
+function b64() {
+  qty = document.getElementById("a64").value;
+  qtz = qty * 1920;
+  qtx = Math.round(qtz * 100) / 100;
+  let arrQty = "";
+  let arrTotal = 0;
+  if (qty != "") {
+    array.push({
+      sabbir: qtx,
+      quantity: qty + "×1920=" + qtx + "(KS-PERFUME*ml)\n"
+    });
+    for (i = 0; i < array.length; i++) {
+      arrQty += array[i].quantity;
+      display_message.innerHTML = arrQty;
+      arrTotal += parseFloat(array[i].sabbir);
+      display_message.innerHTML += "Total=" + arrTotal;
+    }
+  }
+}
+////------6------5
+function b65() {
+  qty = document.getElementById("a65").value;
+  qtz = qty * 1920;
+  qtx = Math.round(qtz * 100) / 100;
+  let arrQty = "";
+  let arrTotal = 0;
+  if (qty != "") {
+    array.push({
+      sabbir: qtx,
+      quantity: qty + "×1920=" + qtx + "(COLOUR-ME*ml)\n"
+    });
+    for (i = 0; i < array.length; i++) {
+      arrQty += array[i].quantity;
+      display_message.innerHTML = arrQty;
+      arrTotal += parseFloat(array[i].sabbir);
+      display_message.innerHTML += "Total=" + arrTotal;
+    }
+  }
+}
 ////------7------1
 function b71() {
   qty =document.getElementById("a71").value;
