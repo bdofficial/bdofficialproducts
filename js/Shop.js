@@ -104,14 +104,14 @@ function b32() {
 ////------4------1
 function b41() {
   qty = document.getElementById("a41").value;
-  qtz = qty * 108;
+  qtz = qty * 9;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
   let arrTotal = 0;
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: qty + "×108=" + qtx + "(KATALIA-SHAMPOO)\n"
+      quantity: qty + "×9=" + qtx + "(KATALIA-SHAMPOO)\n"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
