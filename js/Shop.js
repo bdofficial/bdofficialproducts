@@ -141,6 +141,26 @@ function b51() {
     }
   }
 }
+////------5------2
+function b52() {
+  qty = document.getElementById("a52").value;
+  qtz = qty * 1500;
+  qtx = Math.round(qtz * 100) / 100;
+  let arrQty = "";
+  let arrTotal = 0;
+  if (qty != "") {
+    array.push({
+      sabbir: qtx,
+      quantity: qty + "×1500=" + qtx + "(KUMARIKA-HAIR-OIL200ml)\n"
+    });
+    for (i = 0; i < array.length; i++) {
+      arrQty += array[i].quantity;
+      display_message.innerHTML = arrQty;
+      arrTotal += parseFloat(array[i].sabbir);
+      display_message.innerHTML += "Total=" + arrTotal;
+    }
+  }
+}
 ////------6------1
 function b61() {
   qty = document.getElementById("a61").value;
