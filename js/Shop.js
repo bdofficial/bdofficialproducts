@@ -554,7 +554,7 @@ function b89() {
 }
 ////------9------1
 function b91() {
-  qty = document.getElementById("a").value;
+  qty = document.getElementById("a91").value;
   qtz = qty * 120;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -563,6 +563,26 @@ function b91() {
     array.push({
       sabbir: qtx,
       quantity: qty + "×120=" + qtx + "(SMART-HAIR-COLOR-BROWN50gm)\n"
+    });
+    for (i = 0; i < array.length; i++) {
+      arrQty += array[i].quantity;
+      display_message.innerHTML = arrQty;
+      arrTotal += parseFloat(array[i].sabbir);
+      display_message.innerHTML += "Total=" + arrTotal;
+    }
+  }
+}
+////------9------2
+function b92() {
+  qty = document.getElementById("a92").value;
+  qtz = qty * 140;
+  qtx = Math.round(qtz * 100) / 100;
+  let arrQty = "";
+  let arrTotal = 0;
+  if (qty != "") {
+    array.push({
+      sabbir: qtx,
+      quantity: qty + "×140=" + qtx + "(REXONA50ml)\n"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
