@@ -4,14 +4,14 @@ let array = new Array();
 ////------1------1
 function b11() {
   qty = document.getElementById("a11").value;
-  qtz = qty * 540;
+  qtz = qty * 960;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
   let arrTotal = 0;
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: qty + "×540=" + qtx + "(DETOL-SOAP75ml)\n"
+      quantity: qty + "×960=" + qtx + "(JOHNSON'S-BABY-SOAP65gm)\n"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -21,7 +21,27 @@ function b11() {
     }
   }
 }
-////------2------1
+////------1------2
+function b12() {
+  qty = document.getElementById("a12").value;
+  qtz = qty * 540;
+  qtx = Math.round(qtz * 100) / 100;
+  let arrQty = "";
+  let arrTotal = 0;
+  if (qty != "") {
+    array.push({
+      sabbir: qtx,
+      quantity: qty + "×540=" + qtx + "(DETOL-SOAP75gm)\n"
+    });
+    for (i = 0; i < array.length; i++) {
+      arrQty += array[i].quantity;
+      display_message.innerHTML = arrQty;
+      arrTotal += parseFloat(array[i].sabbir);
+      display_message.innerHTML += "Total=" + arrTotal;
+    }
+  }
+}
+////------2------1 
 function b21() {
   qty = document.getElementById("a21").value;
   qtz = qty * 986.4;
