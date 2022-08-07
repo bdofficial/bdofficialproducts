@@ -81,6 +81,26 @@ function b22() {
     }
   }
 }
+////------2------3
+function b23() {
+  qty = document.getElementById("a23").value;
+  qtz = qty * 0;
+  qtx = Math.round(qtz * 100) / 100;
+  let arrQty = "";
+  let arrTotal = 0;
+  if (qty != "") {
+    array.push({
+      sabbir: qtx,
+      quantity: qty + "×0=" + qtx + "YC-FACE-WASH(100ml)\n"
+    });
+    for (i = 0; i < array.length; i++) {
+      arrQty += array[i].quantity;
+      display_message.innerHTML = arrQty;
+      arrTotal += parseFloat(array[i].sabbir);
+      display_message.innerHTML += "Total=" + arrTotal;
+    }
+  }
+}
 ////------3------1
 function b31() {
   qty = document.getElementById("a31").value;
