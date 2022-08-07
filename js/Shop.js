@@ -164,14 +164,14 @@ function b52() {
 ////------5------3
 function b53() {
   qty = document.getElementById("a53").value;
-  qtz = qty * 756;
+  qtz = qty * 780;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
   let arrTotal = 0;
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: qty + "×756=" + qtx + "(KUMARIKA-HAIR-OIL100ml)\n"
+      quantity: qty + "×780=" + qtx + "(KUMARIKA-HAIR-OIL100ml)\n"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
