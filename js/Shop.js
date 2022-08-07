@@ -84,6 +84,46 @@ function b22() {
 ////------2------3
 function b23() {
   qty = document.getElementById("a23").value;
+  qtz = qty * 840;
+  qtx = Math.round(qtz * 100) / 100;
+  let arrQty = "";
+  let arrTotal = 0;
+  if (qty != "") {
+    array.push({
+      sabbir: qtx,
+      quantity: qty + "×840=" + qtx + "HIMALAYA-FACE-WASH(50ml)\n"
+    });
+    for (i = 0; i < array.length; i++) {
+      arrQty += array[i].quantity;
+      display_message.innerHTML = arrQty;
+      arrTotal += parseFloat(array[i].sabbir);
+      display_message.innerHTML += "Total=" + arrTotal;
+    }
+  }
+}
+////------2------4
+function b24() {
+  qty = document.getElementById("a24").value;
+  qtz = qty * 1080;
+  qtx = Math.round(qtz * 100) / 100;
+  let arrQty = "";
+  let arrTotal = 0;
+  if (qty != "") {
+    array.push({
+      sabbir: qtx,
+      quantity: qty + "×1080=" + qtx + "HIMALAYA-FACE-WASH(100ml)\n"
+    });
+    for (i = 0; i < array.length; i++) {
+      arrQty += array[i].quantity;
+      display_message.innerHTML = arrQty;
+      arrTotal += parseFloat(array[i].sabbir);
+      display_message.innerHTML += "Total=" + arrTotal;
+    }
+  }
+}
+////------2------5
+function b25() {
+  qty = document.getElementById("a25").value;
   qtz = qty * 0;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
