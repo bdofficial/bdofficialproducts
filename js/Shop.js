@@ -61,9 +61,9 @@ function b21() {
     }
   }
 }
-////------2------2
-function b22() {
-  qty = document.getElementById("a22").value;
+////------2------102
+function b2102() {
+  qty = document.getElementById("a2102").value;
   qtz = qty * 1716;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -81,9 +81,9 @@ function b22() {
     }
   }
 }
-////------2------3
-function b23() {
-  qty = document.getElementById("a23").value;
+////------2------2
+function b22() {
+  qty = document.getElementById("a22").value;
   qtz = qty * 840;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -101,9 +101,9 @@ function b23() {
     }
   }
 }
-////------2------3.2
-function b24() {
-  qty = document.getElementById("a24").value;
+////------2------202
+function b2202() {
+  qty = document.getElementById("a2202").value;
   qtz = qty * 1080;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -144,6 +144,26 @@ function b25() {
 ////------3------1
 function b31() {
   qty = document.getElementById("a31").value;
+  qtz = qty * 1680;
+  qtx = Math.round(qtz * 100) / 100;
+  let arrQty = ""; 
+  let arrTotal = 0;
+  if (qty != "") {
+    array.push({
+      sabbir: qtx,
+      quantity: qty + "×1680=" + qtx + "(JOHNSON'S-MILK-CREAM50gm)\n"
+    });
+    for (i = 0; i < array.length; i++) {
+      arrQty += array[i].quantity;
+      display_message.innerHTML = arrQty;
+      arrTotal += parseFloat(array[i].sabbir);
+      display_message.innerHTML += "Total=" + arrTotal;
+    }
+  }
+}
+////------3------2
+function b32() {
+  qty = document.getElementById("a32").value;
   qtz = qty * 450;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = ""; 
@@ -161,9 +181,9 @@ function b31() {
     }
   }
 }
-////------3------2
-function b32() {
-  qty = document.getElementById("a32").value;
+////------3------3
+function b33() {
+  qty = document.getElementById("a33").value;
   qtz = qty * 600;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -261,9 +281,9 @@ function b52() {
     }
   }
 }
-////------5------3
-function b53() {
-  qty = document.getElementById("a53").value;
+////------5------202
+function b5202() {
+  qty = document.getElementById("a5202").value;
   qtz = qty * 1500;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
