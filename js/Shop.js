@@ -101,7 +101,7 @@ function b23() {
     }
   }
 }
-////------2------4
+////------2------3.2
 function b24() {
   qty = document.getElementById("a24").value;
   qtz = qty * 1080;
@@ -146,7 +146,7 @@ function b31() {
   qty = document.getElementById("a31").value;
   qtz = qty * 450;
   qtx = Math.round(qtz * 100) / 100;
-  let arrQty = "";
+  let arrQty = ""; 
   let arrTotal = 0;
   if (qty != "") {
     array.push({
@@ -184,6 +184,26 @@ function b32() {
 ////------4------1
 function b41() {
   qty = document.getElementById("a41").value;
+  qtz = qty * 1560;
+  qtx = Math.round(qtz * 100) / 100;
+  let arrQty = "";
+  let arrTotal = 0;
+  if (qty != "") {
+    array.push({
+      sabbir: qtx,
+      quantity: qty + "×1560=" + qtx + "(JOHNSON'S-SHAMPOO100ml)\n"
+    });
+    for (i = 0; i < array.length; i++) {
+      arrQty += array[i].quantity;
+      display_message.innerHTML = arrQty;
+      arrTotal += parseFloat(array[i].sabbir);
+      display_message.innerHTML += "Total=" + arrTotal;
+    }
+  }
+}
+////------4------2
+function b42() {
+  qty = document.getElementById("a42").value;
   qtz = qty * 9;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
