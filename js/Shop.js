@@ -304,26 +304,6 @@ function b5202() {
 ////------6------1
 function b61() {
   qty = document.getElementById("a61").value;
-  qtz = qty * 1680;
-  qtx = Math.round(qtz * 100) / 100;
-  let arrQty = "";
-  let arrTotal = 0;
-  if (qty != "") {
-    array.push({
-      sabbir: qtx,
-      quantity: qty + "×1680=" + qtx + "(TOUCH-ME40ml)\n"
-    });
-    for (i = 0; i < array.length; i++) {
-      arrQty += array[i].quantity;
-      display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
-    }
-  }
-}
-////------6------2
-function b62() {
-  qty = document.getElementById("a62").value;
   qtz = qty * 2880;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -341,9 +321,9 @@ function b62() {
     }
   }
 }
-////------6------3
-function b63() {
-  qty = document.getElementById("a63").value;
+////------6------2
+function b62() {
+  qty = document.getElementById("a62").value;
   qtz = qty * 600;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -361,9 +341,9 @@ function b63() {
     }
   }
 }
-////------6------4
-function b64() {
-  qty = document.getElementById("a64").value;
+////------6------202
+function b6202() {
+  qty = document.getElementById("a6202").value;
   qtz = qty * 1920;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -381,9 +361,29 @@ function b64() {
     }
   }
 }
-////------6------5
-function b65() {
-  qty = document.getElementById("a65").value;
+////------6------3
+function b63() {
+  qty = document.getElementById("a63").value;
+  qtz = qty * 1680;
+  qtx = Math.round(qtz * 100) / 100;
+  let arrQty = "";
+  let arrTotal = 0;
+  if (qty != "") {
+    array.push({
+      sabbir: qtx,
+      quantity: qty + "×1680=" + qtx + "(TOUCH-ME40ml)\n"
+    });
+    for (i = 0; i < array.length; i++) {
+      arrQty += array[i].quantity;
+      display_message.innerHTML = arrQty;
+      arrTotal += parseFloat(array[i].sabbir);
+      display_message.innerHTML += "Total=" + arrTotal;
+    }
+  }
+}
+////------6------4
+function b64() {
+  qty = document.getElementById("a64").value;
   qtz = qty * 1920;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
