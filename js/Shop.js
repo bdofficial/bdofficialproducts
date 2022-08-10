@@ -662,7 +662,7 @@ function b88() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: qty + "×960=" + qtx + "(VIXOL*ml)\n"
+      quantity: qty + "×960=" + qtx + "(VIXOL1000ml)\n"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -682,7 +682,7 @@ function b89() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: qty + "×1080=" + qtx + "(HERPIC*ml)\n"
+      quantity: qty + "×1080=" + qtx + "(HERPIC750ml)\n"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
