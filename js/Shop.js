@@ -416,7 +416,7 @@ function b71() {
          arrQty+=array[i].quantity;
        display_message.innerHTML=arrQty;
          arrTotal+=parseFloat(array[i].sabbir);
-       display_message.innerHTML+= "Total="+arrTotal;
+message.innerHTML="Total=" + arrTotal;
         }
     }
 }
