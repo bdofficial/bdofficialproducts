@@ -8,6 +8,9 @@
     --color-grey: rgb(0, 0, 0);
     --color-dark-grey: #000000;
 }
+body{
+	background-color: #000000;
+}
 .filter-box{
   position: sticky;
   width:21rem;

@@ -1,4 +1,4 @@
-var cacheName = 'hello-pwa';
+var cacheName = 'bdop-pwa';
 var filesToCache = [
   ];
 /* Start the service worker and cache all of the app's content */
