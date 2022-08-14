@@ -17,7 +17,7 @@ function b11() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      message.innerHTML += "Total=" + arrTotal;
+      message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -37,7 +37,7 @@ function b12() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -57,7 +57,7 @@ function b21() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -77,7 +77,7 @@ function b2102() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -97,7 +97,7 @@ function b22() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -117,7 +117,7 @@ function b2202() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -137,7 +137,7 @@ function b25() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -157,7 +157,7 @@ function b31() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -177,7 +177,7 @@ function b32() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -197,7 +197,7 @@ function b33() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -217,7 +217,7 @@ function b41() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -237,7 +237,7 @@ function b42() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -257,7 +257,7 @@ function b51() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -277,7 +277,7 @@ function b52() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -297,7 +297,7 @@ function b5202() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -317,7 +317,7 @@ function b61() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -337,7 +337,7 @@ function b62() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -357,7 +357,7 @@ function b6202() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -377,7 +377,7 @@ function b63() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -397,7 +397,7 @@ function b64() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -435,7 +435,7 @@ function b72() {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
          arrTotal += parseFloat(array[i].sabbir);
-         display_message.innerHTML += "Total=" + arrTotal;
+   message.innerHTML="Total=" + arrTotal;
         }
     }
 }
@@ -454,7 +454,7 @@ function b73() {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
          arrTotal += parseFloat(array[i].sabbir);
-         display_message.innerHTML += "Total=" + arrTotal;
+   message.innerHTML="Total=" + arrTotal;
         }
     }
 }
@@ -473,7 +473,7 @@ function b74() {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
          arrTotal += parseFloat(array[i].sabbir);
-         display_message.innerHTML += "Total=" + arrTotal;
+   message.innerHTML="Total=" + arrTotal;
         }
     }
 }
@@ -492,7 +492,7 @@ function b75() {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
          arrTotal += parseFloat(array[i].sabbir);
-         display_message.innerHTML += "Total=" + arrTotal;
+   message.innerHTML="Total=" + arrTotal;
         }
     }
 }
@@ -512,7 +512,7 @@ function b76() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -531,7 +531,7 @@ function b81() {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
          arrTotal += parseFloat(array[i].sabbir);
-         display_message.innerHTML += "Total=" + arrTotal;
+   message.innerHTML="Total=" + arrTotal;
         }
     }
 }
@@ -550,7 +550,7 @@ function b82() {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
          arrTotal += parseFloat(array[i].sabbir);
-         display_message.innerHTML += "Total=" + arrTotal;
+   message.innerHTML="Total=" + arrTotal;
         }
     }
 }
@@ -569,7 +569,7 @@ function b83() {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
          arrTotal += parseFloat(array[i].sabbir);
-         display_message.innerHTML += "Total=" + arrTotal;
+   message.innerHTML="Total=" + arrTotal;
         }
     }
 }
@@ -588,7 +588,7 @@ function b84() {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
          arrTotal += parseFloat(array[i].sabbir);
-         display_message.innerHTML += "Total=" + arrTotal;
+   message.innerHTML="Total=" + arrTotal;
         }
     }
 }
@@ -608,7 +608,7 @@ function b85() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -628,7 +628,7 @@ function b86() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -648,7 +648,7 @@ function b87() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -668,7 +668,7 @@ function b88() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -688,7 +688,7 @@ function b89() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -708,7 +708,7 @@ function b91() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
@@ -728,7 +728,7 @@ function b92() {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
       arrTotal += parseFloat(array[i].sabbir);
-      display_message.innerHTML += "Total=" + arrTotal;
+message.innerHTML="Total=" + arrTotal;
     }
   }
 }
