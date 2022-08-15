@@ -100,9 +100,9 @@ width: 357px;
     bottom: 50px;
 }
 
-
 /* textarea */
 .bdosabbir textarea{
+  caret-color: transparent !important;
   border-top-left-radius: 7px;
     border-top-right-radius: 7px;
   vertical-align: top;
@@ -111,6 +111,7 @@ width: 357px;
   width: 20rem;
 }
 .bdsbiir textarea{
+  caret-color: transparent !important;
   border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
   vertical-align: top;
