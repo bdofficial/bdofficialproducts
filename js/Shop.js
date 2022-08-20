@@ -15,8 +15,8 @@ function b11() {
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
-      display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+     display_message.innerHTML = arrQty;
+      arrTotal += (array[i].sabbir);
       message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -36,7 +36,7 @@ function b12() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -56,7 +56,7 @@ function b21() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -76,7 +76,7 @@ function b2102() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -96,7 +96,7 @@ function b22() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -116,7 +116,7 @@ function b2202() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -136,7 +136,7 @@ function b25() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -156,7 +156,7 @@ function b31() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -176,7 +176,7 @@ function b32() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -196,7 +196,7 @@ function b33() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -216,7 +216,7 @@ function b41() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -236,7 +236,7 @@ function b42() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -256,7 +256,7 @@ function b51() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -276,7 +276,7 @@ function b52() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -296,7 +296,7 @@ function b5202() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -316,7 +316,7 @@ function b61() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -336,7 +336,7 @@ function b62() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -356,7 +356,7 @@ function b6202() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -376,7 +376,7 @@ function b63() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -396,7 +396,7 @@ function b64() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -415,7 +415,7 @@ function b71() {
         for (i = 0; i < array.length; i++) {
          arrQty+=array[i].quantity;
        display_message.innerHTML=arrQty;
-         arrTotal+=parseFloat(array[i].sabbir);
+         arrTotal+=(array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
         }
     }
@@ -434,7 +434,7 @@ function b72() {
         for (i = 0; i < array.length; i++) {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
-         arrTotal += parseFloat(array[i].sabbir);
+         arrTotal += (array[i].sabbir);
    message.innerHTML="Total=" + arrTotal;
         }
     }
@@ -453,7 +453,7 @@ function b73() {
         for (i = 0; i < array.length; i++) {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
-         arrTotal += parseFloat(array[i].sabbir);
+         arrTotal += (array[i].sabbir);
    message.innerHTML="Total=" + arrTotal;
         }
     }
@@ -472,7 +472,7 @@ function b74() {
         for (i = 0; i < array.length; i++) {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
-         arrTotal += parseFloat(array[i].sabbir);
+         arrTotal += (array[i].sabbir);
    message.innerHTML="Total=" + arrTotal;
         }
     }
@@ -491,7 +491,7 @@ function b75() {
         for (i = 0; i < array.length; i++) {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
-         arrTotal += parseFloat(array[i].sabbir);
+         arrTotal += (array[i].sabbir);
    message.innerHTML="Total=" + arrTotal;
         }
     }
@@ -511,7 +511,7 @@ function b76() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -530,7 +530,7 @@ function b81() {
         for (i = 0; i < array.length; i++) {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
-         arrTotal += parseFloat(array[i].sabbir);
+         arrTotal += (array[i].sabbir);
    message.innerHTML="Total=" + arrTotal;
         }
     }
@@ -549,7 +549,7 @@ function b82() {
         for (i = 0; i < array.length; i++) {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
-         arrTotal += parseFloat(array[i].sabbir);
+         arrTotal += (array[i].sabbir);
    message.innerHTML="Total=" + arrTotal;
         }
     }
@@ -568,7 +568,7 @@ function b83() {
         for (i = 0; i < array.length; i++) {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
-         arrTotal += parseFloat(array[i].sabbir);
+         arrTotal += (array[i].sabbir);
    message.innerHTML="Total=" + arrTotal;
         }
     }
@@ -587,7 +587,7 @@ function b84() {
         for (i = 0; i < array.length; i++) {
          arrQty += array[i].quantity;
          display_message.innerHTML = arrQty;
-         arrTotal += parseFloat(array[i].sabbir);
+         arrTotal += (array[i].sabbir);
    message.innerHTML="Total=" + arrTotal;
         }
     }
@@ -607,7 +607,7 @@ function b85() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -627,7 +627,7 @@ function b86() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -647,7 +647,7 @@ function b87() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -667,7 +667,7 @@ function b88() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -687,7 +687,7 @@ function b89() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -707,7 +707,7 @@ function b91() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
@@ -727,7 +727,7 @@ function b92() {
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
       display_message.innerHTML = arrQty;
-      arrTotal += parseFloat(array[i].sabbir);
+      arrTotal += (array[i].sabbir);
 message.innerHTML="Total=" + arrTotal;
     }
   }
