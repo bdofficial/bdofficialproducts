@@ -110,6 +110,7 @@ width: 357px;
 }
 .bdsbiir textarea{
   pointer-events: none;
+  vertical-align: top;
   border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
     transform: translate(-6.8%,-0%);
