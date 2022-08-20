@@ -99,10 +99,8 @@ width: 357px;
     transform: translate(-50%);
     bottom: 50px;
 }
-
 /* textarea */
 .bdosabbir textarea{ 
-  pointer-events: none;
   border-top-left-radius: 7px;
     border-top-right-radius: 7px;
   vertical-align: top;
@@ -119,5 +117,3 @@ width: 357px;
   height: 8.9rem;
   width: 20rem;
 }
-
-
