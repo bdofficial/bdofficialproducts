@@ -1,0 +1,12 @@
+document.write('            <option>SAMOL-SHA</option>');
+document.write('            <option>MANAN</option>');
+document.write('            <option>SAHI</option>');
+document.write('            <option>MASUM</option>');
+document.write('            <option>JANAT</option>    ');
+document.write('            <option>MA-STORE</option>   ');
+document.write('            <option>VAI-VAI</option>');
+document.write('            <option>RSEL</option> ');
+document.write('            <option>HANAN</option>');
+document.write('            <option>BILLAL</option>');
+document.write('            <option>HALAL</option>');
+document.write('            <option>SAMIM</option>   ');
