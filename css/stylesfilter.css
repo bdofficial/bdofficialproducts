@@ -16,6 +16,8 @@ body{
   width:21rem;
   left: 35.35%;
     transform: translate(-6.52%);
+ margin-top:-0.553rem;
+ margin-bottom: -0.95rem;
 }
 .form-con input{
     background-color:white;
@@ -102,6 +104,7 @@ img {
 header {
     background-color: hsl(0, 0%, 15%);
     padding: 1rem;
+    margin-bottom: -0.33rem;
 }
 
 header a {
@@ -209,4 +212,10 @@ transform: translate(0rem,0.9rem);
     color: rgb(255, 0, 0);
     font-weight: normal;
 }
+
+
+#search {
+  width:17.3rem;
+}
+
 hsl(71, 100%, 72%)
