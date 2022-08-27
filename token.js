@@ -45,7 +45,7 @@ window.location.replace('http://bdop.netlify.app');
   }
 
   else if (token == "143") {
-window.location.replace('http://bdop.netlify.app'); 
+window.location.replace('http://bdop.netlify.app/indexhi'); 
    }  
     
 else {
