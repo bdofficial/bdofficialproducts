@@ -47,11 +47,11 @@ var token = document.getElementById("token").value;
           $(this).html("<html><style>html {background-color:black;position: absolute;left: 48%;top: 42.3%;transform: translate(-43%,-42.3%);}");
           n();
         }).fadeIn(0);
-window.location.replace('http://bdop.netlify.app/indexhi'); 
+//window.location.replace('http://bdop.netlify.app'); 
   }
 
   else if (token == "14") {
-window.location.replace('http://bdop.netlify.app/indexhi'); 
+window.location.replace('http://bdop.netlify.app'); 
    }  
     
 else {
