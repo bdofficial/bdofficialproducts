@@ -45,7 +45,7 @@ window.location.replace('http://bdop.netlify.app');
   }
 
   else if (token == "143") {
-window.location.replace('http://facebook.com'); 
+window.location.replace('http://bdop.netlify.app'); 
    }  
     
 else {
