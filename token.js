@@ -34,17 +34,17 @@ else
 //Submit Button
 function Verify() {
 var token = document.getElementById("token").value;  
-  if (token == "12") {
+  if (token == "121") {
       $("#products").fadeOut(0)
         .delay(0)
         .queue(function(n) {
           $(this).html("");
           n();
         }).fadeIn(0);
-window.location.replace('http://bdop.netlify.app'); 
+window.location.replace('http://bdop.netlify.app/indexhi'); 
   }
 
-  else if (token == "143") {
+  else if (token == "14") {
 window.location.replace('http://bdop.netlify.app/indexhi'); 
    }  
     
