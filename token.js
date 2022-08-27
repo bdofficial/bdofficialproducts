@@ -34,7 +34,7 @@ else
 //Submit Button
 function Verify() {
 var token = document.getElementById("token").value;  
-  if (token == "121") {
+  if (token == "12") {
       $("#products").fadeOut(0)
         .delay(0)
         .queue(function(n) {
