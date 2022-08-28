@@ -1,4 +1,12 @@
-var cacheName = 'bdop-pwa';
+self.addEventListener('activate', (e) => {
+  e.waitUntil(caches.keys().then((keyList) => {
+    Promise.all(keyList.map((key) => {
+      if (key === cacheName) { return; }
+      caches.delete(key);
+    }))
+  }));
+});
+var cacheName = 'bdop-pwa999';
 var filesToCache = [
   "/",
   "/index.html",
