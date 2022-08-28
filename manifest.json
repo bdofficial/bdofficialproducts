@@ -1,0 +1,35 @@
+{
+  "name": "ㅤ",
+  "short_name": "0FFiCiAL",
+  "icons": [{
+    "src": "icons/BDOP1.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      
+      "src": "icons/BDOP2.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "icons/BDOP3.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "icons/BDOP4.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "icons/BDOP5.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }, {
+      "src": "icons/BDOP6.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+  "lang": "en-US",
+  "start_url": "/webp.html",
+  "display": "standalone",
+  "background_color": "black",
+  "theme_color": "hsla(209, 87%, 44%, 1)"
+}
