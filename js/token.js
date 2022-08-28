@@ -1,13 +1,19 @@
 //token-save
-window.onload = () =>{
-    window.setTimeout(function() { 
+window.onload = () => {
+  window.setTimeout(function() { 
       Verify();
         var token = document.getElementById("token").value ;
         //localStorage["token"] = token ;
         localStorage.setItem("token", token) ;
         console.log("token id saved")
     },0000);
-};
+    //pwa
+  'use strict';
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('./webpsave.js');
+  }
+}
 //save entered token
 document.getElementById("sub").addEventListener("click", function ()
     {
@@ -34,17 +40,17 @@ else
 //Submit Button
 function Verify() {
 var token = document.getElementById("token").value;  
-  if (token == "1214") {
+  if (token == "1213") {
       $("#products").fadeOut(0)
         .delay(0)
         .queue(function(n) {
           $(this).html("<html><style>html {background-color:black;position: absolute;left: 48%;top: 42.3%;transform: translate(-43%,-42.3%);}");
           n();
         }).fadeIn(0);
-window.location.replace('http://bdop.netlify.app'); 
+window.location.replace('index.html'); 
   } 
  
-  else if (token == "14") {
+  else if (token == "143") {
 window.location.replace('http://bdop.netlify.app'); 
    }  
     

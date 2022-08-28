@@ -1,3 +1,4 @@
+//delete cache
 self.addEventListener('activate', (e) => {
   e.waitUntil(caches.keys().then((keyList) => {
     Promise.all(keyList.map((key) => {
@@ -6,10 +7,11 @@ self.addEventListener('activate', (e) => {
     }))
   }));
 });
-var cacheName = 'bdop-pwa999';
+var cacheName = 'bk78';
+//save cache
 var filesToCache = [
   "/",
-  "/index.html",
+  "/0819746153816942409.html",
   ];
 /* Start the service worker and cache all of the app's content */
 self.addEventListener('install', function(e) {
