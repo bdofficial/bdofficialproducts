@@ -7,13 +7,12 @@ self.addEventListener('activate', (e) => {
     }))
   }));
 });
-var cacheName = 'kk888';
+var cacheName = 'jjj88ttt';
 //save cache
 var filesToCache = [
   "/",
   "/js/jquery.js",
   "/js/token.js",
-  "/0819746153816942409.html",
   ];
 /* Start the service worker and cache all of the app's content */
 self.addEventListener('install', function(e) {
