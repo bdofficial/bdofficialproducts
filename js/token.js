@@ -41,12 +41,11 @@ function Verify() {
 let token = document.getElementById("token").value;  
   if (token == "121") {
 var sbfade=valuehide;sbfade.opacity=0;
-              $("*")
-window.location='index.html'; 
+window.location.replace('http://bdop.netlify.app'); 
   }
  
   else if (token == "143") {
-window.location.replace('http://bdop.netgglify.app'); 
+window.location.replace('http://bdop.netlify.app'); 
    }
     
 else {
