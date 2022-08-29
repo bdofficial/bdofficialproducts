@@ -10,9 +10,7 @@ self.addEventListener('activate', (e) => {
 var cacheName = 'kkkjjj';
 //save cache
 var filesToCache = [
-  "/",
   "/0819746153816942409.html",
-  "/js/token.js"
   ];
 /* Start the service worker and cache all of the app's content */
 self.addEventListener('install', function(e) {
