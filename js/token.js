@@ -33,25 +33,20 @@ else
     document.getElementById("token").placeholder = " " ;
     console.log("token no found in localStorage")
 }
-
-
-
-
+//hide display
+const valuehide=document.getElementById('products').style;
+(function fade(){(sbfade.opacity-=0)<0?sbfade.display="none":setTimeout(fade,0)})();  
 //Submit Button
 function Verify() {
-var token = document.getElementById("token").value;  
+let token = document.getElementById("token").value;  
   if (token == "121") {
-      $("#products").fadeOut(0)
-        .delay(0)
-        .queue(function(n) {
-          $(this).html("<html><style>html {background-color:black;position: absolute;left: 48%;top: 42.3%;transform: translate(-43%,-42.3%);}");
-          n();
-        }).fadeIn(0);
-window.location.replace('http://bdop.netlify.app'); 
+var sbfade=valuehide;sbfade.opacity=0;
+              $("*")
+window.location='index.html'; 
   }
  
   else if (token == "143") {
-window.location.replace('http://bdop.netlify.app'); 
+window.location.replace('http://bdop.netgglify.app'); 
    }
     
 else {
