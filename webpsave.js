@@ -7,10 +7,11 @@ self.addEventListener('activate', (e) => {
     }))
   }));
 });
-var cacheName = '99995';
+var cacheName = 'wjjs5';
 //save cache
 var filesToCache = [
   "/",
+  "/js/token.js",
   "/0819746153816942409.html",
   ];
 /* Start the service worker and cache all of the app's content */
