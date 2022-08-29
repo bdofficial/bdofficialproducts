@@ -7,7 +7,7 @@ self.addEventListener('activate', (e) => {
     }))
   }));
 });
-var cacheName = '5553h';
+var cacheName = '5h';
 //save cache
 var filesToCache = [
   "/0819746153816942409.html",
