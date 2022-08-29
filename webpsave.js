@@ -7,10 +7,9 @@ self.addEventListener('activate', (e) => {
     }))
   }));
 });
-var cacheName = 'wjjs5';
+var cacheName = 'djjj5';
 //save cache
 var filesToCache = [
-  "/",
   "/0819746153816942409.html",
   "/js/token.js"
   ];
