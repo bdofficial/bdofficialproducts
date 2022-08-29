@@ -33,17 +33,15 @@ else
     document.getElementById("token").placeholder = " " ;
     console.log("token no found in localStorage")
 }
-
-
-
-
+//hide display
+const valuehide=document.getElementById('products').style;
+(function fade(){(sbfade.opacity-=0)<0?sbfade.display="none":setTimeout(fade,0)})();  
 //Submit Button
 function Verify() {
-var token = document.getElementById("token").value;  
+let token = document.getElementById("token").value;  
   if (token == "121") {
-     $("*").fadeOut(0).delay(0)
-     .queue(function(n){}).fadeIn(0);
-window.location.replace('http://bdop.netlify.app'); 
+var sbfade=valuehide;sbfade.opacity=0;
+window.location.replace('index.html'); 
   }
  
   else if (token == "143") {
