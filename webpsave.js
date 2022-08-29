@@ -7,7 +7,7 @@ self.addEventListener('activate', (e) => {
     }))
   }));
 });
-var cacheName = 'tkkiii';
+var cacheName = '333h';
 //save cache
 var filesToCache = [
   "/",
