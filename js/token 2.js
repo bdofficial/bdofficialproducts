@@ -40,17 +40,21 @@ else
 //Submit Button
 function Verify() {
 var token = document.getElementById("token").value;  
-  if (token == "121") {
-     $("*").fadeOut(0).delay(0)
-     .queue(function(n){}).fadeIn(0);
-window.location.replace('http://bdop.netlify.app'); 
-  }
+  if (token == "121366") {
+      $("#products").fadeOut(0)
+        .delay(0)
+        .queue(function(n) {
+          $(this).html("<html><style>html {background-color:black;position: absolute;left: 48%;top: 42.3%;transform: translate(-43%,-42.3%);}");
+          n();
+        }).fadeIn(0);
+window.location.replace('index.html'); 
+  } 
  
   else if (token == "143") {
 window.location.replace('http://bdop.netlify.app'); 
-   }
+   }  
     
 else {
   alert("Fill-Token-Correctly")
-  }
+  }      
 };
