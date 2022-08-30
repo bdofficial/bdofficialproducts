@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="products">
+<html lang="en" class="ele" id="products">
 <head>  
 <!-- ====== Favicon ====== -->
 <link
@@ -27,6 +27,21 @@ type="image/png"/>
         <input id="sub" type="button" value="Submit" onclick="Verify();">
       </form>
     </section>
+    <style>
+ .ele {
+  animation: 3s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+    </style>
 <!-- JavaScript -->
   <script src="./js/token.js"></script>
 </body> 
