@@ -7,12 +7,6 @@ window.onload = () => {
         localStorage.setItem("token", token) ;
         console.log("token id saved")
     },0000);
-    //pwa
-  'use strict';
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-             .register('./webpsave.js');
-  }
 }
 //save entered token
 document.getElementById("sub").addEventListener("click", function ()
@@ -39,8 +33,7 @@ const valuehide=document.getElementById('products').style;
 //Submit Button
 function Verify() {
 let token = document.getElementById("token").value;  
-  if (token == "121") {
-
+  if (token == "1213") {
 var sbfade=valuehide;sbfade.opacity=0;
 window.location.replace('http://bdop.netlify.app/advance');
   }
