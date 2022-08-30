@@ -7,13 +7,11 @@ self.addEventListener('activate', (e) => {
     }))
   }));
 });
-var cacheName = 'dj—sbiir3';
+var cacheName = 'hhh8ii';
 //save cache
 var filesToCache = [
-  "/js/token.js",
-  "/webp.html",
-  "/webp.js",
-  "/webpsave.js",
+
+
   ];
 /* Start the service worker and cache all of the app's content */
 self.addEventListener('install', function(e) {

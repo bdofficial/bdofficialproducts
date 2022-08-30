@@ -1,3 +1,18 @@
+//double-click
+(function(window, location) {
+  history.replaceState(null, document.title, location.pathname + "#!/stealingyourhistory");
+  history.pushState(null, document.title, location.pathname);
+
+  window.addEventListener("popstate", function() {
+    if (location.hash === "#!/stealingyourhistory") {
+      history.replaceState(null, document.title, location.pathname);
+      setTimeout(function() {
+        alert("Press again for exit.");
+      }, 0);
+    }
+  }, false);
+}(window, location));
+//scriptfilter
 const btns = document.querySelectorAll('.btn');
 const storeProducts = document.querySelectorAll('.store-product');
 for (i = 0; i < btns.length; i++) {

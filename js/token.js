@@ -35,7 +35,7 @@ function Verify() {
 let token = document.getElementById("token").value;  
   if (token == "121") {
 var sbfade=valuehide;sbfade.opacity=0;
-window.location.replace('http://bdop.netlify.app/advance');
+window.location.replace('index.html');
   }
   else if (token == "143") {
 var sbfade=valuehide;sbfade.opacity=0;
