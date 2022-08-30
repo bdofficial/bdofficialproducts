@@ -7,11 +7,12 @@ self.addEventListener('activate', (e) => {
     }))
   }));
 });
-var cacheName = 'iiiuuy5';
+var cacheName = 'kkkkdd';
 //save cache
 var filesToCache = [
+  "/js/network.js",
   "/0819746153816942409.html",
-  "/js/network.js"
+  "/js/token.js"
   ];
 /* Start the service worker and cache all of the app's content */
 self.addEventListener('install', function(e) {
