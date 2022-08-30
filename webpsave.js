@@ -7,10 +7,10 @@ self.addEventListener('activate', (e) => {
     }))
   }));
 });
-var cacheName = 'ottot';
+var cacheName = 'kkkt';
 //save cache
 var filesToCache = [
-
+  "/000.html",
   ];
 /* Start the service worker and cache all of the app's content */
 self.addEventListener('install', function(e) {
