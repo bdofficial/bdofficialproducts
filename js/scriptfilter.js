@@ -15,7 +15,7 @@ setTimeout(function(){
   cache_clear()
 },500); 
 //////////////////
-      },100);
+      },10);
     }
   }, false);
 }(window, location));}
