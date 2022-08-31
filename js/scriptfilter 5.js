@@ -10,12 +10,13 @@ function cache_clear() {
     if (location.hash === "#!/stealingyourhistory") {
       history.replaceState(null, document.title, location.pathname);
       setTimeout(function() {
-        ///delay alert again running
+        alert("Press again for exit.");
+///delay alert again running
 setTimeout(function(){
   cache_clear()
-},500); 
+}, 3000); 
 //////////////////
-      },100);
+      }, 200);
     }
   }, false);
 }(window, location));}
