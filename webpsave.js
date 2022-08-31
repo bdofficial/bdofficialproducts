@@ -7,7 +7,7 @@ self.addEventListener('activate', (e) => {
     }))
   }));
 });
-var cacheName = 'dj—alejjeok';
+var cacheName = 'dj—aok';
 //save cache
 var filesToCache = [
   "/webp.com.html",

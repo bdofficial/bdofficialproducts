@@ -24,8 +24,6 @@ const btns = document.querySelectorAll('.btn');
 const storeProducts = document.querySelectorAll('.store-product');
 for (i = 0; i < btns.length; i++) {
     btns[i].addEventListener('click', (e) => {
-
-        
         const filter = e.target.dataset.filter;
         console.log(filter);
         
