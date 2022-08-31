@@ -1,5 +1,5 @@
 window.addEventListener('load', function (){
-    cache_clear()
+    alert('Function #1');
 });
 function cache_clear() {
 //double-click
@@ -11,7 +11,6 @@ function cache_clear() {
       history.replaceState(null, document.title, location.pathname);
       setTimeout(function() {
         alert("Press again for exit.");
-//////////////////////
         $(".alert").delay(1000).slideUp(200, function() {
   $(this).alert('close');
 });
@@ -21,7 +20,6 @@ $(document).ready(function() {
     cache_clear()
   }, 3000);
 });
-//////////////////
       }, 200);
     }
   }, false);

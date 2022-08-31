@@ -11,21 +11,9 @@ function cache_clear() {
       history.replaceState(null, document.title, location.pathname);
       setTimeout(function() {
         alert("Press again for exit.");
-//////////////////////
         $(".alert").delay(1000).slideUp(200, function() {
   $(this).alert('close');
 });
-// refresh-double-click
-$(document).ready(function() {
-  setInterval(function() {
-    cache_clear()
-  }, 3000);
-});
-//////////////////
-      }, 200);
-    }
-  }, false);
-}(window, location));}
 //scriptfilter
 const btns = document.querySelectorAll('.btn');
 const storeProducts = document.querySelectorAll('.store-product');

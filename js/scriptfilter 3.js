@@ -1,5 +1,11 @@
-window.addEventListener('load', function (){
+$(".alert").delay(1000).slideUp(200, function() {
+  $(this).alert('close');
+});
+// refresh-double-click
+$(document).ready(function() {
+  setInterval(function() {
     cache_clear()
+  }, 3000);
 });
 function cache_clear() {
 //double-click
@@ -11,17 +17,6 @@ function cache_clear() {
       history.replaceState(null, document.title, location.pathname);
       setTimeout(function() {
         alert("Press again for exit.");
-//////////////////////
-        $(".alert").delay(1000).slideUp(200, function() {
-  $(this).alert('close');
-});
-// refresh-double-click
-$(document).ready(function() {
-  setInterval(function() {
-    cache_clear()
-  }, 3000);
-});
-//////////////////
       }, 200);
     }
   }, false);
@@ -70,3 +65,49 @@ function filterProducts(e) {
         }
     })
 }
+
+
+$(window).ready(function(){
+    var popup =$('#popup-1 ,#popup-2'),
+        innerPopup =$('#inner-popup-1 , #inner-popup-2'),
+        btnInnerPopup =$('#btn-1');
+  
+   
+    $('.btn-dark ,.btn-warning').on('click', function(){
+      $($(this).data('popup')).css('visibility','visible');
+    });
+    $('.btn-danger , .first , .second').click(function(){
+        popup.css('visibility','hidden');
+    });
+    innerPopup.click(function(e){
+      e.stopPropagation();
+    });
+    $(document).keydown(function(event){
+      if(event.keyCode==27){
+          popup.css('visibility','hidden');
+      }
+    })
+  });
+
+
+  $(window).ready(function(){
+    var popup =$('#popup-1 ,#popup-2'),
+        innerPopup =$('#inner-popup-1 , #inner-popup-2'),
+        btnInnerPopup =$('#btn-1');
+  
+   
+    $('.btn-dark ,.btn-warning').on('click', function(){
+      $($(this).data('popup')).css('visibility','visible');
+    });
+    $('.btn-danger , .first , .second').click(function(){
+        popup.css('visibility','hidden');
+    });
+    innerPopup.click(function(e){
+      e.stopPropagation();
+    });
+    $(document).keydown(function(event){
+      if(event.keyCode==27){
+          popup.css('visibility','hidden');
+      }
+    })
+  });
