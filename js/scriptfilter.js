@@ -14,7 +14,7 @@ function cache_clear() {
 ///delay alert again running
 setTimeout(function(){
   cache_clear()
-}, 500); 
+}, 3000); 
 //////////////////
       }, 200);
     }
