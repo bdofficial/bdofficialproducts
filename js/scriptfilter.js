@@ -1,5 +1,14 @@
+$(".alert").delay(1000).slideUp(200, function() {
+  $(this).alert('close');
+});
+// refresh-double-click
+$(document).ready(function() {
+  setInterval(function() {
+    cache_clear()
+  }, 3000);
+});
+function cache_clear() {
 //double-click
-function b333sb() {  
 (function(window, location) {
   history.replaceState(null, document.title, location.pathname + "#!/stealingyourhistory");
   history.pushState(null, document.title, location.pathname);
@@ -11,8 +20,7 @@ function b333sb() {
       }, 200);
     }
   }, false);
-}(window, location));
-}
+}(window, location));}
 //scriptfilter
 const btns = document.querySelectorAll('.btn');
 const storeProducts = document.querySelectorAll('.store-product');
