@@ -12,9 +12,11 @@ function cache_clear() {
       setTimeout(function() {
         alert("Press again for exit.");
 ///delay alert again running
-setTimeout(function(){
-  cache_clear()
-}, 500); 
+$(document).ready(function() {
+  setInterval(function() {
+    cache_clear()
+  }, 3000);
+});
 //////////////////
       }, 200);
     }
