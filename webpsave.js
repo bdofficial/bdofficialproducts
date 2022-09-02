@@ -1,5 +1,6 @@
 var cacheName = 'bdop-pwa';
 var filesToCache = [
+  "webp.com.html"
   ];
 /* Start the service worker and cache all of the app's content */
 self.addEventListener('install', function(e) {
