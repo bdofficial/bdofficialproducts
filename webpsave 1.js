@@ -1,5 +1,17 @@
-var cacheName = 'bdop-pwa';
+//delete cache
+self.addEventListener('activate', (e) => {
+  e.waitUntil(caches.keys().then((keyList) => {
+    Promise.all(keyList.map((key) => {
+      if (key === cacheName) { return; }
+      caches.delete(key);
+    }))
+  }));
+});
+var cacheName = 'dj—hg';
+//save cache
 var filesToCache = [
+  "index.html",
+  "/webp.com.html"
   ];
 /* Start the service worker and cache all of the app's content */
 self.addEventListener('install', function(e) {
