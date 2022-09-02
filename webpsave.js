@@ -7,9 +7,10 @@ self.addEventListener('activate', (e) => {
     }))
   }));
 });
-var cacheName = 'dj—hejhg';
+var cacheName = 'dj—hg';
 //save cache
 var filesToCache = [
+  "index.html",
   "/webp.com.html"
   ];
 /* Start the service worker and cache all of the app's content */
