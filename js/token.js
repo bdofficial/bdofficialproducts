@@ -41,6 +41,10 @@ window.location.replace('index.html');
 var sbfade=valuehide;sbfade.opacity=0;
 window.location.replace('http://bdop.netlify.app'); 
    }
+   else if (token == "16269shanto") {
+var sbfade=valuehide;sbfade.opacity=0;
+window.location.replace('16269shanto.html'); 
+   }
     
 else {
   alert("Fill-Token-Correctly")
