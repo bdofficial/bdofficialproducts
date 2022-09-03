@@ -138,8 +138,12 @@ width: 357px;
   color: white;
   border-color: white;
 }
-
-
 #save{
   width: 15rem;
+}
+#idname{
+  margin-top: -0.9rem;
+  font-size: 19px;
+  font-weight: bold;
+  color:#FFFFFF80;
 }
