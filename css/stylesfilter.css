@@ -14,10 +14,7 @@ body{
 .filter-box{
   position: sticky;
   width:21rem;
-  left: 35.35%;
-    transform: translate(-6.52%);
- margin-top:-0.553rem;
- margin-bottom: -0.95rem;
+ margin-top:-0.5rem;
 }
 .form-con input{
     background-color:white;
@@ -62,7 +59,7 @@ a{
   width: 14.3rem;     
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 /* UTILITY */
 .p-small {
@@ -92,18 +89,15 @@ img {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+
 }
 .container h1{
     color:hsla(0, 0%, 100%, 0.842);
 }
-.container h2{
-    color:hsla(216, 100%, 63%, 0.445);
-}
 
 header {
     background-color: hsl(0, 0%, 15%);
-    padding: 1rem;
+    padding-bottom: 0.53rem;
     margin-bottom: -0.33rem;
 }
 
@@ -122,14 +116,13 @@ header h1 {
 }
 
 header h2{
-font-size: 1rem;
+    font-size: 1rem;
     line-height: 0.;
     font-weight: 501;
-    color:rgb(255, 255, 255);
+    color: white;
     pointer-events: none;
     cursor: default;
 }
-
 body h3 {
     font-size: 1rem;
     padding-top: 3px;  
