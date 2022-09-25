@@ -431,7 +431,7 @@ document.write('    </form>');
 document.write('  </div>');
 document.write('</div>');
 document.write('<!----8VARIETIES--------------------------------------------------8-->');
-document.write('<div class="store-produc;4ubt VARIETIES">');
+document.write('<div class="store-product VARIETIES">');
 document.write('  <div class="product-details">');
 document.write('    <h3 hidden>VIXOL 1000ml</h3>');
 document.write('    <a href="./products/8/1.webp"target="_blank"><input class="form-control" style="text-align:center;background-color:green; color:#ffffff;" value="VIXOL(1000ml)" disabled></a>');
