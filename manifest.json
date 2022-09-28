@@ -28,7 +28,7 @@
       "type": "image/png"
     }],
   "lang": "en-US",
-  "start_url": "/webp.com.html",
+  "start_url": "/pwa.com.html",
   "display": "standalone",
   "background_color": "black",
   "theme_color": "hsla(209, 87%, 44%, 1)"
