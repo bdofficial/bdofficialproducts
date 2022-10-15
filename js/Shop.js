@@ -11,7 +11,7 @@ function b311() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×960=" + qtx + "(JOHNSON'S-BABY-SOAP*65gm)"
+      quantity: "\n" + qty + "×960=" + qtx + "(JOHNSON'S-BABY-SOAP65gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -30,7 +30,7 @@ function b301() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×540=" + qtx + "(DETOL-SOAP*75gm)"
+      quantity: "\n" + qty + "×540=" + qtx + "(DETOL-SOAP75gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -49,7 +49,7 @@ function b292() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×986.4=" + qtx + "(CLEAN-&-CLEAR*50ml)"
+      quantity: "\n" + qty + "×986.4=" + qtx + "(CLEAN-&-CLEAR50ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -68,7 +68,7 @@ function b291() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1716=" + qtx + "(CLEAN-&-CLEAR*100ml)"
+      quantity: "\n" + qty + "×1716=" + qtx + "(CLEAN-&-CLEAR100ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -87,7 +87,7 @@ function b282() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×840=" + qtx + "(HIMALAYA-FACE-WASH*50ml)"
+      quantity: "\n" + qty + "×840=" + qtx + "(HIMALAYA-FACE-WASH50ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -106,7 +106,7 @@ function b281() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1080=" + qtx + "(HIMALAYA-FACE-WASH*100ml)"
+      quantity: "\n" + qty + "×1080=" + qtx + "(HIMALAYA-FACE-WASH100ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -125,7 +125,7 @@ function b271() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×0=" + qtx + "(YC-FACE-WASH*100ml)"
+      quantity: "\n" + qty + "×0=" + qtx + "(YC-FACE-WASH100ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -144,7 +144,7 @@ function b261() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1680=" + qtx + "(JOHNSON'S-MILK-CREAM*50gm)"
+      quantity: "\n" + qty + "×1680=" + qtx + "(JOHNSON'S-MILK-CREAM50gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -163,7 +163,7 @@ function b251() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×450=" + qtx + "(LOTA-HARBAL*20gm)"
+      quantity: "\n" + qty + "×450=" + qtx + "(LOTA-HARBAL20gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -182,7 +182,7 @@ function b241() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×600=" + qtx + "(SKIN-SHINE*30gm)"
+      quantity: "\n" + qty + "×600=" + qtx + "(SKIN-SHINE30gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -201,7 +201,7 @@ function b231() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1560=" + qtx + "(JOHNSON'S-SHAMPOO*100ml)"
+      quantity: "\n" + qty + "×1560=" + qtx + "(JOHNSON'S-SHAMPOO100ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -220,7 +220,7 @@ function b221() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×9=" + qtx + "(KATALIA-SHAMPOO*3ml)"
+      quantity: "\n" + qty + "×9=" + qtx + "(KATALIA-SHAMPOO3ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -239,7 +239,7 @@ function b211() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×420=" + qtx + "(SMART-KESH-KALA*45ml)"
+      quantity: "\n" + qty + "×420=" + qtx + "(SMART-KESH-KALA45ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -258,7 +258,7 @@ function b202() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×780=" + qtx + "(KUMARIKA-HAIR-OIL*100ml)"
+      quantity: "\n" + qty + "×780=" + qtx + "(KUMARIKA-HAIR-OIL100ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -277,7 +277,7 @@ function b191() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1500=" + qtx + "(KUMARIKA-HAIR-OIL*200ml)"
+      quantity: "\n" + qty + "×1500=" + qtx + "(KUMARIKA-HAIR-OIL200ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -296,7 +296,7 @@ function b181() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×2880=" + qtx + "(FOGG-PERFUME*120ml)"
+      quantity: "\n" + qty + "×2880=" + qtx + "(FOGG-PERFUME120ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -315,7 +315,7 @@ function b172() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1680=" + qtx + "(KS-PERFUME*40ml)"
+      quantity: "\n" + qty + "×1680=" + qtx + "(KS-PERFUME40ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -334,7 +334,7 @@ function b171() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1920=" + qtx + "(KS-PERFUME*60ml)"
+      quantity: "\n" + qty + "×1920=" + qtx + "(KS-PERFUME60ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -353,7 +353,7 @@ function b161() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1680=" + qtx + "(TOUCH-ME*40ml)"
+      quantity: "\n" + qty + "×1680=" + qtx + "(TOUCH-ME40ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -372,7 +372,7 @@ function b151() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1920=" + qtx + "(COLOUR-ME*60ml)"
+      quantity: "\n" + qty + "×1920=" + qtx + "(COLOUR-ME60ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -391,7 +391,7 @@ function st25() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×270=" + qtx + "(SMART-TUBE*25gm)"
+      quantity: "\n" + qty + "×270=" + qtx + "(SMART-TUBE25gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -410,7 +410,7 @@ function b101() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×430=" + qtx + "(SMART-CONE*30ml)"
+      quantity: "\n" + qty + "×430=" + qtx + "(SMART-CONE30ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -429,7 +429,7 @@ function b91() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×220=" + qtx + "(KASHMERI-CONE*20gm)"
+      quantity: "\n" + qty + "×220=" + qtx + "(KASHMERI-CONE20gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -448,7 +448,7 @@ function b141() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×480=" + qtx + "(SMART-COOL-POWDER*100gm)"
+      quantity: "\n" + qty + "×480=" + qtx + "(SMART-COOL-POWDER100gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -467,7 +467,7 @@ function b131() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×480=" + qtx + "(SMART-PRICKLY-POWDER*100gm)"
+      quantity: "\n" + qty + "×480=" + qtx + "(SMART-PRICKLY-POWDER100gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -486,7 +486,7 @@ function b121() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×450=" + qtx + "(SMART-BEAUTY-POWDER*100gm)"
+      quantity: "\n" + qty + "×450=" + qtx + "(SMART-BEAUTY-POWDER100gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -505,7 +505,7 @@ function b62() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×100=" + qtx + "(SMART-POWER-BAR*10gm)"
+      quantity: "\n" + qty + "×100=" + qtx + "(SMART-POWER-BAR10gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -524,7 +524,7 @@ function b61() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×300=" + qtx + "(SMART-POWER-BAR*30gm)"
+      quantity: "\n" + qty + "×300=" + qtx + "(SMART-POWER-BAR30gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -543,7 +543,7 @@ function b32() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×240=" + qtx + "(ROBI-DETERGRNT-POWDER*200gm)"
+      quantity: "\n" + qty + "×240=" + qtx + "(ROBI-DETERGRNT-POWDER200gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -562,7 +562,7 @@ function b31() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×540=" + qtx + "(ROBI-DETERGRNT-POWDER*500gm)"
+      quantity: "\n" + qty + "×540=" + qtx + "(ROBI-DETERGRNT-POWDER500gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -581,7 +581,7 @@ function b51() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×840=" + qtx + "(SMART-LIQUID*500ml)"
+      quantity: "\n" + qty + "×840=" + qtx + "(SMART-LIQUID500ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -600,7 +600,7 @@ function b42() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×150=" + qtx + "(SMART-BLUE*50ml)"
+      quantity: "\n" + qty + "×150=" + qtx + "(SMART-BLUE50ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -619,7 +619,7 @@ function sb100() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×300=" + qtx + "(SMART-BLUE*100ml)"
+      quantity: "\n" + qty + "×300=" + qtx + "(SMART-BLUE100ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -638,7 +638,7 @@ function b21() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×960=" + qtx + "(VIXOL*1000ml)"
+      quantity: "\n" + qty + "×960=" + qtx + "(VIXOL1000ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -657,7 +657,7 @@ function b11() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1080=" + qtx + "(HERPIC*750ml)"
+      quantity: "\n" + qty + "×1080=" + qtx + "(HERPIC750ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -676,7 +676,7 @@ function b81() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×120=" + qtx + "(SMART-HAIR-COLOR-BROWN*50gm)"
+      quantity: "\n" + qty + "×120=" + qtx + "(SMART-HAIR-COLOR-BROWN50gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -695,7 +695,7 @@ function b71() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×140=" + qtx + "(REXONA*50ml)"
+      quantity: "\n" + qty + "×140=" + qtx + "(REXONA50ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
