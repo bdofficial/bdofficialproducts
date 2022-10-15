@@ -1,9 +1,9 @@
 ////-------------------
 let array = [];
 ////-------------------
-////------1------1
-function b11() {
-  qty = document.getElementById("a11").value;
+////------------
+function jbs65() {
+  qty = document.getElementById("jbs65").value;
   qtz = qty * 960;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -20,9 +20,9 @@ function b11() {
     }
   }
 }
-////------1------2
-function b12() {
-  qty = document.getElementById("a12").value;
+////------------
+function ds75() {
+  qty = document.getElementById("ds75").value;
   qtz = qty * 540;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -39,9 +39,9 @@ function b12() {
     }
   }
 }
-////------2------1 
-function b21() {
-  qty = document.getElementById("a21").value;
+////------------
+function cac50() {
+  qty = document.getElementById("cac50").value;
   qtz = qty * 986.4;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -58,9 +58,9 @@ function b21() {
     }
   }
 }
-////------2------102
-function b2102() {
-  qty = document.getElementById("a2102").value;
+////------------
+function cac100() {
+  qty = document.getElementById("cac100").value;
   qtz = qty * 1716;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -77,9 +77,9 @@ function b2102() {
     }
   }
 }
-////------2------2
-function b22() {
-  qty = document.getElementById("a22").value;
+////------------
+function hfw50() {
+  qty = document.getElementById("hfw50").value;
   qtz = qty * 840;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -96,9 +96,9 @@ function b22() {
     }
   }
 }
-////------2------202
-function b2202() {
-  qty = document.getElementById("a2202").value;
+////------------
+function hfw100() {
+  qty = document.getElementById("hfw100").value;
   qtz = qty * 1080;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -115,9 +115,9 @@ function b2202() {
     }
   }
 }
-////------2------5
-function b25() {
-  qty = document.getElementById("a25").value;
+////------------
+function yfw100() {
+  qty = document.getElementById("yfw100").value;
   qtz = qty * 0;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -134,9 +134,9 @@ function b25() {
     }
   }
 }
-////------3------1
-function b31() {
-  qty = document.getElementById("a31").value;
+////------------
+function jmc50() {
+  qty = document.getElementById("jmc50").value;
   qtz = qty * 1680;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -153,9 +153,9 @@ function b31() {
     }
   }
 }
-////------3------2
-function b32() {
-  qty = document.getElementById("a32").value;
+////------------
+function lh20() {
+  qty = document.getElementById("lh20").value;
   qtz = qty * 450;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -172,9 +172,9 @@ function b32() {
     }
   }
 }
-////------3------3
-function b33() {
-  qty = document.getElementById("a33").value;
+////------------
+function ss30() {
+  qty = document.getElementById("ss30").value;
   qtz = qty * 600;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -191,9 +191,9 @@ function b33() {
     }
   }
 }
-////------4------1
-function b41() {
-  qty = document.getElementById("a41").value;
+////------------
+function js100() {
+  qty = document.getElementById("js100").value;
   qtz = qty * 1560;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -210,9 +210,9 @@ function b41() {
     }
   }
 }
-////------4------2
-function b42() {
-  qty = document.getElementById("a42").value;
+////------------
+function ks3() {
+  qty = document.getElementById("ks3").value;
   qtz = qty * 9;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -220,7 +220,7 @@ function b42() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×9=" + qtx + "(KATALIA-SHAMPOO)"
+      quantity: "\n" + qty + "×9=" + qtx + "(KATALIA-SHAMPOO3ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -229,9 +229,9 @@ function b42() {
     }
   }
 }
-////------5------1
-function b51() {
-  qty = document.getElementById("a51").value;
+////------------
+function skk45() {
+  qty = document.getElementById("skk45").value;
   qtz = qty * 420;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -248,9 +248,9 @@ function b51() {
     }
   }
 }
-////------5------2
-function b52() {
-  qty = document.getElementById("a52").value;
+////------------
+function kho100() {
+  qty = document.getElementById("kho100").value;
   qtz = qty * 780;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -267,9 +267,9 @@ function b52() {
     }
   }
 }
-////------5------202
-function b5202() {
-  qty = document.getElementById("a5202").value;
+////------------
+function kho200() {
+  qty = document.getElementById("kho200").value;
   qtz = qty * 1500;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -286,9 +286,9 @@ function b5202() {
     }
   }
 }
-////------6------1
-function b61() {
-  qty = document.getElementById("a61").value;
+////------------
+function fp120() {
+  qty = document.getElementById("fp120").value;
   qtz = qty * 2880;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -305,9 +305,9 @@ function b61() {
     }
   }
 }
-////------6------2
-function b62() {
-  qty = document.getElementById("a62").value;
+////------------
+function kp40() {
+  qty = document.getElementById("kp40").value;
   qtz = qty * 600;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -324,9 +324,9 @@ function b62() {
     }
   }
 }
-////------6------202
-function b6202() {
-  qty = document.getElementById("a6202").value;
+////------------
+function kp60() {
+  qty = document.getElementById("kp60").value;
   qtz = qty * 1920;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -343,9 +343,9 @@ function b6202() {
     }
   }
 }
-////------6------3
-function b63() {
-  qty = document.getElementById("a63").value;
+////------------
+function tm40() {
+  qty = document.getElementById("tm40").value;
   qtz = qty * 1680;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -362,9 +362,9 @@ function b63() {
     }
   }
 }
-////------6------4
-function b64() {
-  qty = document.getElementById("a64").value;
+////------------
+function cm60() {
+  qty = document.getElementById("cm60").value;
   qtz = qty * 1920;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -372,7 +372,7 @@ function b64() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1920=" + qtx + "(COLOUR-ME*60ml)"
+      quantity: "\n" + qty + "×1920=" + qtx + "(COLOUR-ME60ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -381,9 +381,9 @@ function b64() {
     }
   }
 }
-////------7------1
-function b71() {
-  qty = document.getElementById("a71").value;
+////------------
+function st25() {
+  qty = document.getElementById("st25").value;
   qtz = qty * 270;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -400,9 +400,9 @@ function b71() {
     }
   }
 }
-////------7------2
-function b72() {
-  qty = document.getElementById("a72").value;
+////------------
+function sc30() {
+  qty = document.getElementById("sc30").value;
   qtz = qty * 430;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -419,9 +419,9 @@ function b72() {
     }
   }
 }
-////------7------3
-function b73() {
-  qty = document.getElementById("a73").value;
+////------------
+function kc20() {
+  qty = document.getElementById("kc20").value;
   qtz = qty * 220;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -438,9 +438,9 @@ function b73() {
     }
   }
 }
-////------7------4
-function b74() {
-  qty = document.getElementById("a74").value;
+////------------
+function scp100() {
+  qty = document.getElementById("scp100").value;
   qtz = qty * 480;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -457,9 +457,9 @@ function b74() {
     }
   }
 }
-////------7------5
-function b75() {
-  qty = document.getElementById("a75").value;
+////------------
+function spp100() {
+  qty = document.getElementById("spp100").value;
   qtz = qty * 480;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -476,9 +476,9 @@ function b75() {
     }
   }
 }
-////------7------6
-function b76() {
-  qty = document.getElementById("a76").value;
+////------------
+function sbp100() {
+  qty = document.getElementById("sbp100").value;
   qtz = qty * 450;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -495,9 +495,9 @@ function b76() {
     }
   }
 }
-////------8------1
-function b81() {
-  qty = document.getElementById("a81").value;
+////------------
+function spb10() {
+  qty = document.getElementById("sbp10").value;
   qtz = qty * 100;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -514,9 +514,9 @@ function b81() {
     }
   }
 }
-////------8------2
-function b82() {
-  qty = document.getElementById("a82").value;
+////------------
+function sbp30() {
+  qty = document.getElementById("sbp30").value;
   qtz = qty * 300;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -533,9 +533,9 @@ function b82() {
     }
   }
 }
-////------8------3
-function b83() {
-  qty = document.getElementById("a83").value;
+////------------
+function rdp200() {
+  qty = document.getElementById("rdp200").value;
   qtz = qty * 240;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -552,9 +552,9 @@ function b83() {
     }
   }
 }
-////------8------4
-function b84() {
-  qty = document.getElementById("a84").value;
+////------------
+function rdp500() {
+  qty = document.getElementById("rdp500").value;
   qtz = qty * 540;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -571,9 +571,9 @@ function b84() {
     }
   }
 }
-////------8------5
-function b85() {
-  qty = document.getElementById("a85").value;
+////------------
+function sl500() {
+  qty = document.getElementById("sl500").value;
   qtz = qty * 840;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -590,9 +590,9 @@ function b85() {
     }
   }
 }
-////------8------6
-function b86() {
-  qty = document.getElementById("a86").value;
+////------------
+function sb50() {
+  qty = document.getElementById("sb50").value;
   qtz = qty * 150;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -609,9 +609,9 @@ function b86() {
     }
   }
 }
-////------8------7
-function b87() {
-  qty = document.getElementById("a87").value;
+////------------
+function sb100() {
+  qty = document.getElementById("sb100").value;
   qtz = qty * 300;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -628,9 +628,9 @@ function b87() {
     }
   }
 }
-////------8------8
-function b88() {
-  qty = document.getElementById("a88").value;
+////------------
+function v1000() {
+  qty = document.getElementById("v1000").value;
   qtz = qty * 960;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -647,9 +647,9 @@ function b88() {
     }
   }
 }
-////------8------9
-function b89() {
-  qty = document.getElementById("a89").value;
+////------------
+function h750() {
+  qty = document.getElementById("h750").value;
   qtz = qty * 1080;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -666,9 +666,9 @@ function b89() {
     }
   }
 }
-////------9------1
-function b91() {
-  qty = document.getElementById("a91").value;
+////------------
+function shcb50() {
+  qty = document.getElementById("shcb50").value;
   qtz = qty * 120;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -685,9 +685,9 @@ function b91() {
     }
   }
 }
-////------9------2
-function b92() {
-  qty = document.getElementById("a92").value;
+////------------
+function r50() {
+  qty = document.getElementById("r50").value;
   qtz = qty * 140;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
