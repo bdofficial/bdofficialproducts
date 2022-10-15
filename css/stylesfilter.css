@@ -210,5 +210,12 @@ transform: translate(0rem,0.9rem);
 #search {
   width:17.3rem;
 }
+#search {
+  margin-top: -0.63rem;
+}
+
+
+
+
 
 hsl(71, 100%, 72%)
