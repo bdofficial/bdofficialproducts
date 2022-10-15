@@ -1,9 +1,9 @@
 ////-------------------
 let array = [];
 ////-------------------
-////------------
-function jbs65() {
-  qty = document.getElementById("jbs65").value;
+////------------311
+function b311() {
+  qty = document.getElementById("a311").value;
   qtz = qty * 960;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -11,7 +11,7 @@ function jbs65() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×960=" + qtx + "(JOHNSON'S-BABY-SOAP65gm)"
+      quantity: "\n" + qty + "×960=" + qtx + "(JOHNSON'S-BABY-SOAP*65gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -20,9 +20,9 @@ function jbs65() {
     }
   }
 }
-////------------
-function ds75() {
-  qty = document.getElementById("ds75").value;
+////------------301
+function b301() {
+  qty = document.getElementById("a301").value;
   qtz = qty * 540;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -30,7 +30,7 @@ function ds75() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×540=" + qtx + "(DETOL-SOAP75gm)"
+      quantity: "\n" + qty + "×540=" + qtx + "(DETOL-SOAP*75gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -39,9 +39,9 @@ function ds75() {
     }
   }
 }
-////------------
-function cac50() {
-  qty = document.getElementById("cac50").value;
+////------------292
+function b292() {
+  qty = document.getElementById("a292").value;
   qtz = qty * 986.4;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -49,7 +49,7 @@ function cac50() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×986.4=" + qtx + "(CLEAN-&-CLEAR50ml)"
+      quantity: "\n" + qty + "×986.4=" + qtx + "(CLEAN-&-CLEAR*50ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -58,9 +58,9 @@ function cac50() {
     }
   }
 }
-////------------
-function cac100() {
-  qty = document.getElementById("cac100").value;
+////------------291
+function b291() {
+  qty = document.getElementById("a291").value;
   qtz = qty * 1716;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -68,7 +68,7 @@ function cac100() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1716=" + qtx + "CLEAN-&-CLEAR(100ml)"
+      quantity: "\n" + qty + "×1716=" + qtx + "(CLEAN-&-CLEAR*100ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -77,9 +77,9 @@ function cac100() {
     }
   }
 }
-////------------
-function hfw50() {
-  qty = document.getElementById("hfw50").value;
+////------------282
+function b282() {
+  qty = document.getElementById("a282").value;
   qtz = qty * 840;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -87,7 +87,7 @@ function hfw50() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×840=" + qtx + "HIMALAYA-FACE-WASH(50ml)"
+      quantity: "\n" + qty + "×840=" + qtx + "(HIMALAYA-FACE-WASH*50ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -96,9 +96,9 @@ function hfw50() {
     }
   }
 }
-////------------
-function hfw100() {
-  qty = document.getElementById("hfw100").value;
+////------------281
+function b281() {
+  qty = document.getElementById("a281").value;
   qtz = qty * 1080;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -106,7 +106,7 @@ function hfw100() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1080=" + qtx + "HIMALAYA-FACE-WASH(100ml)"
+      quantity: "\n" + qty + "×1080=" + qtx + "(HIMALAYA-FACE-WASH*100ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -115,9 +115,9 @@ function hfw100() {
     }
   }
 }
-////------------
-function yfw100() {
-  qty = document.getElementById("yfw100").value;
+////------------271
+function b271() {
+  qty = document.getElementById("a271").value;
   qtz = qty * 0;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -125,7 +125,7 @@ function yfw100() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×0=" + qtx + "YC-FACE-WASH(100ml)"
+      quantity: "\n" + qty + "×0=" + qtx + "(YC-FACE-WASH*100ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -134,9 +134,9 @@ function yfw100() {
     }
   }
 }
-////------------
-function jmc50() {
-  qty = document.getElementById("jmc50").value;
+////------------261
+function b261() {
+  qty = document.getElementById("a261").value;
   qtz = qty * 1680;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -144,7 +144,7 @@ function jmc50() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1680=" + qtx + "(JOHNSON'S-MILK-CREAM50gm)"
+      quantity: "\n" + qty + "×1680=" + qtx + "(JOHNSON'S-MILK-CREAM*50gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -153,9 +153,9 @@ function jmc50() {
     }
   }
 }
-////------------
-function lh20() {
-  qty = document.getElementById("lh20").value;
+////------------251
+function b251() {
+  qty = document.getElementById("a251").value;
   qtz = qty * 450;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -163,7 +163,7 @@ function lh20() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×450=" + qtx + "(LOTA-HARBAL20gm)"
+      quantity: "\n" + qty + "×450=" + qtx + "(LOTA-HARBAL*20gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -172,9 +172,9 @@ function lh20() {
     }
   }
 }
-////------------
-function ss30() {
-  qty = document.getElementById("ss30").value;
+////------------241
+function b241() {
+  qty = document.getElementById("a241").value;
   qtz = qty * 600;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -182,7 +182,7 @@ function ss30() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×600=" + qtx + "(SKIN-SHINE30gm)"
+      quantity: "\n" + qty + "×600=" + qtx + "(SKIN-SHINE*30gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -191,9 +191,9 @@ function ss30() {
     }
   }
 }
-////------------
-function js100() {
-  qty = document.getElementById("js100").value;
+////------------231
+function b231() {
+  qty = document.getElementById("a231").value;
   qtz = qty * 1560;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -201,7 +201,7 @@ function js100() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1560=" + qtx + "(JOHNSON'S-SHAMPOO100ml)"
+      quantity: "\n" + qty + "×1560=" + qtx + "(JOHNSON'S-SHAMPOO*100ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -210,9 +210,9 @@ function js100() {
     }
   }
 }
-////------------
-function ks3() {
-  qty = document.getElementById("ks3").value;
+////------------221
+function b221() {
+  qty = document.getElementById("a221").value;
   qtz = qty * 9;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -220,7 +220,7 @@ function ks3() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×9=" + qtx + "(KATALIA-SHAMPOO3ml)"
+      quantity: "\n" + qty + "×9=" + qtx + "(KATALIA-SHAMPOO*3ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -229,9 +229,9 @@ function ks3() {
     }
   }
 }
-////------------
-function skk45() {
-  qty = document.getElementById("skk45").value;
+////------------211
+function b211() {
+  qty = document.getElementById("a211").value;
   qtz = qty * 420;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -239,7 +239,7 @@ function skk45() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×420=" + qtx + "(SMART-KESH-KALA45ml)"
+      quantity: "\n" + qty + "×420=" + qtx + "(SMART-KESH-KALA*45ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -248,9 +248,9 @@ function skk45() {
     }
   }
 }
-////------------
-function kho100() {
-  qty = document.getElementById("kho100").value;
+////------------202
+function b202() {
+  qty = document.getElementById("a202").value;
   qtz = qty * 780;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -258,7 +258,7 @@ function kho100() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×780=" + qtx + "(KUMARIKA-HAIR-OIL100ml)"
+      quantity: "\n" + qty + "×780=" + qtx + "(KUMARIKA-HAIR-OIL*100ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -267,9 +267,9 @@ function kho100() {
     }
   }
 }
-////------------
-function kho200() {
-  qty = document.getElementById("kho200").value;
+////------------191
+function b191() {
+  qty = document.getElementById("a191").value;
   qtz = qty * 1500;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -277,7 +277,7 @@ function kho200() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1500=" + qtx + "(KUMARIKA-HAIR-OIL200ml)"
+      quantity: "\n" + qty + "×1500=" + qtx + "(KUMARIKA-HAIR-OIL*200ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -286,9 +286,9 @@ function kho200() {
     }
   }
 }
-////------------
-function fp120() {
-  qty = document.getElementById("fp120").value;
+////------------181
+function b181() {
+  qty = document.getElementById("a181").value;
   qtz = qty * 2880;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -296,7 +296,7 @@ function fp120() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×2880=" + qtx + "(FOGG-PERFUME120ml)"
+      quantity: "\n" + qty + "×2880=" + qtx + "(FOGG-PERFUME*120ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -305,9 +305,9 @@ function fp120() {
     }
   }
 }
-////------------
-function kp40() {
-  qty = document.getElementById("kp40").value;
+////------------172
+function b172() {
+  qty = document.getElementById("a172").value;
   qtz = qty * 600;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -315,7 +315,7 @@ function kp40() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1680=" + qtx + "(KS-PERFUME40ml)"
+      quantity: "\n" + qty + "×1680=" + qtx + "(KS-PERFUME*40ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -324,9 +324,9 @@ function kp40() {
     }
   }
 }
-////------------
-function kp60() {
-  qty = document.getElementById("kp60").value;
+////------------171
+function b171() {
+  qty = document.getElementById("a171").value;
   qtz = qty * 1920;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -334,7 +334,7 @@ function kp60() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1920=" + qtx + "(KS-PERFUME60ml)"
+      quantity: "\n" + qty + "×1920=" + qtx + "(KS-PERFUME*60ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -343,9 +343,9 @@ function kp60() {
     }
   }
 }
-////------------
-function tm40() {
-  qty = document.getElementById("tm40").value;
+////------------161
+function b161() {
+  qty = document.getElementById("a161").value;
   qtz = qty * 1680;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -353,7 +353,7 @@ function tm40() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1680=" + qtx + "(TOUCH-ME40ml)"
+      quantity: "\n" + qty + "×1680=" + qtx + "(TOUCH-ME*40ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -362,9 +362,9 @@ function tm40() {
     }
   }
 }
-////------------
-function cm60() {
-  qty = document.getElementById("cm60").value;
+////------------151
+function b151() {
+  qty = document.getElementById("a151").value;
   qtz = qty * 1920;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -372,7 +372,7 @@ function cm60() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1920=" + qtx + "(COLOUR-ME60ml)"
+      quantity: "\n" + qty + "×1920=" + qtx + "(COLOUR-ME*60ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -381,7 +381,7 @@ function cm60() {
     }
   }
 }
-////------------
+////------------111
 function st25() {
   qty = document.getElementById("st25").value;
   qtz = qty * 270;
@@ -391,7 +391,7 @@ function st25() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×270=" + qtx + "(SMART-TUBE25gm)"
+      quantity: "\n" + qty + "×270=" + qtx + "(SMART-TUBE*25gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -400,9 +400,9 @@ function st25() {
     }
   }
 }
-////------------
-function sc30() {
-  qty = document.getElementById("sc30").value;
+////------------101
+function b101() {
+  qty = document.getElementById("a101").value;
   qtz = qty * 430;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -410,7 +410,7 @@ function sc30() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×430=" + qtx + "(SMART-CONE30ml)"
+      quantity: "\n" + qty + "×430=" + qtx + "(SMART-CONE*30ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -419,9 +419,9 @@ function sc30() {
     }
   }
 }
-////------------
-function kc20() {
-  qty = document.getElementById("kc20").value;
+////------------91
+function b91() {
+  qty = document.getElementById("a91").value;
   qtz = qty * 220;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -429,7 +429,7 @@ function kc20() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×220=" + qtx + "(KASHMERI-CONE-20gm)"
+      quantity: "\n" + qty + "×220=" + qtx + "(KASHMERI-CONE*20gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -438,9 +438,9 @@ function kc20() {
     }
   }
 }
-////------------
-function scp100() {
-  qty = document.getElementById("scp100").value;
+////------------141
+function b141() {
+  qty = document.getElementById("a141").value;
   qtz = qty * 480;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -448,7 +448,7 @@ function scp100() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×480=" + qtx + "(SMART-COOL-POWDER100gm)"
+      quantity: "\n" + qty + "×480=" + qtx + "(SMART-COOL-POWDER*100gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -457,9 +457,9 @@ function scp100() {
     }
   }
 }
-////------------
-function spp100() {
-  qty = document.getElementById("spp100").value;
+////------------131
+function b131() {
+  qty = document.getElementById("a131").value;
   qtz = qty * 480;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -467,7 +467,7 @@ function spp100() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×480=" + qtx + "(SMART-PRICKLY-POWDER100gm)"
+      quantity: "\n" + qty + "×480=" + qtx + "(SMART-PRICKLY-POWDER*100gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -476,9 +476,9 @@ function spp100() {
     }
   }
 }
-////------------
-function sbp100() {
-  qty = document.getElementById("sbp100").value;
+////------------121
+function b121() {
+  qty = document.getElementById("a121").value;
   qtz = qty * 450;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -486,7 +486,7 @@ function sbp100() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×450=" + qtx + "(SMART-BEAUTY-POWDER100gm)"
+      quantity: "\n" + qty + "×450=" + qtx + "(SMART-BEAUTY-POWDER*100gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -495,9 +495,9 @@ function sbp100() {
     }
   }
 }
-////------------
-function spb10() {
-  qty = document.getElementById("sbp10").value;
+////------------62
+function b62() {
+  qty = document.getElementById("a62").value;
   qtz = qty * 100;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -505,7 +505,7 @@ function spb10() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×100=" + qtx + "(SMART-POWER-BAR10gm)"
+      quantity: "\n" + qty + "×100=" + qtx + "(SMART-POWER-BAR*10gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -514,9 +514,9 @@ function spb10() {
     }
   }
 }
-////------------
-function sbp30() {
-  qty = document.getElementById("sbp30").value;
+////------------61
+function b61() {
+  qty = document.getElementById("a61").value;
   qtz = qty * 300;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -524,7 +524,7 @@ function sbp30() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×300=" + qtx + "(SMART-POWER-BAR30gm)"
+      quantity: "\n" + qty + "×300=" + qtx + "(SMART-POWER-BAR*30gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -533,9 +533,9 @@ function sbp30() {
     }
   }
 }
-////------------
-function rdp200() {
-  qty = document.getElementById("rdp200").value;
+////------------32
+function b32() {
+  qty = document.getElementById("a32").value;
   qtz = qty * 240;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -543,7 +543,7 @@ function rdp200() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×240=" + qtx + "(ROBI-DETERGRNT-POWDER200gm)"
+      quantity: "\n" + qty + "×240=" + qtx + "(ROBI-DETERGRNT-POWDER*200gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -552,9 +552,9 @@ function rdp200() {
     }
   }
 }
-////------------
-function rdp500() {
-  qty = document.getElementById("rdp500").value;
+////------------31
+function b31() {
+  qty = document.getElementById("a31").value;
   qtz = qty * 540;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -562,7 +562,7 @@ function rdp500() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×540=" + qtx + "(ROBI-DETERGRNT-POWDER500gm)"
+      quantity: "\n" + qty + "×540=" + qtx + "(ROBI-DETERGRNT-POWDER*500gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -571,9 +571,9 @@ function rdp500() {
     }
   }
 }
-////------------
-function sl500() {
-  qty = document.getElementById("sl500").value;
+////------------51
+function b51() {
+  qty = document.getElementById("a51").value;
   qtz = qty * 840;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -581,7 +581,7 @@ function sl500() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×840=" + qtx + "(SMART-LIQUID500ml)"
+      quantity: "\n" + qty + "×840=" + qtx + "(SMART-LIQUID*500ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -590,9 +590,9 @@ function sl500() {
     }
   }
 }
-////------------
-function sb50() {
-  qty = document.getElementById("sb50").value;
+////------------42
+function b42() {
+  qty = document.getElementById("a42").value;
   qtz = qty * 150;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -600,7 +600,7 @@ function sb50() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×150=" + qtx + "(SMART-BLUE50ml)"
+      quantity: "\n" + qty + "×150=" + qtx + "(SMART-BLUE*50ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -609,7 +609,7 @@ function sb50() {
     }
   }
 }
-////------------
+////------------41
 function sb100() {
   qty = document.getElementById("sb100").value;
   qtz = qty * 300;
@@ -619,7 +619,7 @@ function sb100() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×300=" + qtx + "(SMART-BLUE100ml)"
+      quantity: "\n" + qty + "×300=" + qtx + "(SMART-BLUE*100ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -628,9 +628,9 @@ function sb100() {
     }
   }
 }
-////------------
-function v1000() {
-  qty = document.getElementById("v1000").value;
+////------------21
+function b21() {
+  qty = document.getElementById("a21").value;
   qtz = qty * 960;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -638,7 +638,7 @@ function v1000() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×960=" + qtx + "(VIXOL1000ml)"
+      quantity: "\n" + qty + "×960=" + qtx + "(VIXOL*1000ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -647,9 +647,9 @@ function v1000() {
     }
   }
 }
-////------------
-function h750() {
-  qty = document.getElementById("h750").value;
+////------------11
+function b11() {
+  qty = document.getElementById("a11").value;
   qtz = qty * 1080;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -657,7 +657,7 @@ function h750() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×1080=" + qtx + "(HERPIC750ml)"
+      quantity: "\n" + qty + "×1080=" + qtx + "(HERPIC*750ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -666,9 +666,9 @@ function h750() {
     }
   }
 }
-////------------
-function shcb50() {
-  qty = document.getElementById("shcb50").value;
+////------------81
+function b81() {
+  qty = document.getElementById("a81").value;
   qtz = qty * 120;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -676,7 +676,7 @@ function shcb50() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×120=" + qtx + "(SMART-HAIR-COLOR-BROWN50gm)"
+      quantity: "\n" + qty + "×120=" + qtx + "(SMART-HAIR-COLOR-BROWN*50gm)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
@@ -685,9 +685,9 @@ function shcb50() {
     }
   }
 }
-////------------
-function r50() {
-  qty = document.getElementById("r50").value;
+////------------71
+function b71() {
+  qty = document.getElementById("a71").value;
   qtz = qty * 140;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
@@ -695,7 +695,7 @@ function r50() {
   if (qty != "") {
     array.push({
       sabbir: qtx,
-      quantity: "\n" + qty + "×140=" + qtx + "(REXONA50ml)"
+      quantity: "\n" + qty + "×140=" + qtx + "(REXONA*50ml)"
     });
     for (i = 0; i < array.length; i++) {
       arrQty += array[i].quantity;
