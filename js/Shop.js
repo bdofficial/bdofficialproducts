@@ -248,9 +248,9 @@ function b211() {
     }
   }
 }
-////------------202
-function b202() {
-  qty = document.getElementById("a202").value;
+////------------192
+function b192() {
+  qty = document.getElementById("a192").value;
   qtz = qty * 780;
   qtx = Math.round(qtz * 100) / 100;
   let arrQty = "";
