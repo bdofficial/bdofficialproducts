@@ -10,10 +10,11 @@ function cache_clear() {
     if (location.hash === "#!/stealingyourhistory") {
       history.replaceState(null, document.title, location.pathname);
       setTimeout(function() {
+        alert("Double-click")
         ///delay alert again running
 setTimeout(function(){
   cache_clear()
-},500); 
+},500);
 //////////////////
       },10);
     }
